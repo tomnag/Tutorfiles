@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="WEtutor-1correct_diagram" label="W Etutor 1correct Diagram" description="W Etutor 1correct Diagram" tutor_type="javascript">
+  <Problems>
+  </Problems>
+  <ProblemSets>
+  </ProblemSets>
+  <Assets>
+    <Asset name="Algebra Worked Examples.zip" label="Algebra Worked Examples.Zip" description="Algebra Worked Examples.Zip" asset_locator="Algebra Worked Examples.zip"/>
+    <Asset name="4xplus7eq19.brd" label="4xplus7eq19.Brd" description="4xplus7eq19.Brd" asset_locator="FinalBRDs/4xplus7eq19.brd"/>
+    <Asset name="4xplus7eq19_original.png" label="4xplus7eq19 Original.Png" description="4xplus7eq19 Original.Png" asset_locator="HTML/Assets/4xplus7eq19_original.png"/>
+    <Asset name="4xplus7eq19_step1.png" label="4xplus7eq19 Step1.Png" description="4xplus7eq19 Step1.Png" asset_locator="HTML/Assets/4xplus7eq19_step1.png"/>
+    <Asset name="WEtutor_correct_diagrams-styles.css" label="W Etutor Correct Diagrams Styles.Css" description="W Etutor Correct Diagrams Styles.Css" asset_locator="HTML/Assets/WEtutor_correct_diagrams-styles.css"/>
+    <Asset name="correct_diagram-styles.css" label="Correct Diagram Styles.Css" description="Correct Diagram Styles.Css" asset_locator="HTML/Assets/correct_diagram-styles.css"/>
+    <Asset name="WEtutor_correct_diagrams.ed.html" label="W Etutor Correct Diagrams.Ed.Html" description="W Etutor Correct Diagrams.Ed.Html" asset_locator="HTML/WEtutor_correct_diagrams.ed.html"/>
+    <Asset name="WEtutor_correct_diagrams.html" label="W Etutor Correct Diagrams.Html" description="W Etutor Correct Diagrams.Html" asset_locator="HTML/WEtutor_correct_diagrams.html"/>
+    <Asset name="correct_diagram.ed.html" label="Correct Diagram.Ed.Html" description="Correct Diagram.Ed.Html" asset_locator="HTML/correct_diagram.ed.html"/>
+    <Asset name="correct_diagram.html" label="Correct Diagram.Html" description="Correct Diagram.Html" asset_locator="HTML/correct_diagram.html"/>
+  </Assets>
+</Package>
