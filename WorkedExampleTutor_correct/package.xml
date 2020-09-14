@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="WorkedExampleTutor_correct" label="Worked Example Tutor Correct" description="Worked Example Tutor Correct" tutor_type="javascript">
+  <Problems>
+  </Problems>
+  <ProblemSets>
+  </ProblemSets>
+  <Assets>
+    <Asset name="4xplus7eq19_correct.brd" label="4xplus7eq19 Correct.Brd" description="4xplus7eq19 Correct.Brd" asset_locator="FinalBRDs/4xplus7eq19_correct.brd"/>
+    <Asset name="4xplus7eq19_original.png" label="4xplus7eq19 Original.Png" description="4xplus7eq19 Original.Png" asset_locator="HTML/Assets/4xplus7eq19_original.png"/>
+    <Asset name="4xplus7eq19_step1.png" label="4xplus7eq19 Step1.Png" description="4xplus7eq19 Step1.Png" asset_locator="HTML/Assets/4xplus7eq19_step1.png"/>
+    <Asset name="Correct_diagram-styles.css" label="Correct Diagram Styles.Css" description="Correct Diagram Styles.Css" asset_locator="HTML/Assets/Correct_diagram-styles.css"/>
+    <Asset name="correct_diagram_example-styles.css" label="Correct Diagram Example Styles.Css" description="Correct Diagram Example Styles.Css" asset_locator="HTML/Assets/correct_diagram_example-styles.css"/>
+    <Asset name="Correct_diagram.ed.html" label="Correct Diagram.Ed.Html" description="Correct Diagram.Ed.Html" asset_locator="HTML/Correct_diagram.ed.html"/>
+    <Asset name="Correct_diagram.html" label="Correct Diagram.Html" description="Correct Diagram.Html" asset_locator="HTML/Correct_diagram.html"/>
+    <Asset name="correct_diagram_sample.ed.html" label="Correct Diagram Sample.Ed.Html" description="Correct Diagram Sample.Ed.Html" asset_locator="HTML/correct_diagram_sample.ed.html"/>
+    <Asset name="correct_diagram_sample.html" label="Correct Diagram Sample.Html" description="Correct Diagram Sample.Html" asset_locator="HTML/correct_diagram_sample.html"/>
+  </Assets>
+</Package>
