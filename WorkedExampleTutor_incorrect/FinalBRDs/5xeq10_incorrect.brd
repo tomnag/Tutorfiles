@@ -1,0 +1,2309 @@
+<?xml version="1.0" standalone="yes"?>
+
+<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="%(startStateNodeName)%" tutorType="Example-tracing Tutor">
+    <startNodeMessages>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>StartProblem</MessageType>
+                <ProblemName>5xeq10_incorrect</ProblemName>
+            </properties>
+        </message>
+        <message>
+            <verb>SendNoteProperty</verb>
+            <properties>
+                <MessageType>StartStateEnd</MessageType>
+            </properties>
+        </message>
+    </startNodeMessages>
+    <node locked="false" doneState="false">
+        <text>5xeq10_incorrect</text>
+        <uniqueID>1</uniqueID>
+        <dimension>
+            <x>264</x>
+            <y>30</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state1</text>
+        <uniqueID>2</uniqueID>
+        <dimension>
+            <x>301</x>
+            <y>190</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state4</text>
+        <uniqueID>5</uniqueID>
+        <dimension>
+            <x>315</x>
+            <y>127</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state5</text>
+        <uniqueID>6</uniqueID>
+        <dimension>
+            <x>303</x>
+            <y>250</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state6</text>
+        <uniqueID>7</uniqueID>
+        <dimension>
+            <x>305</x>
+            <y>318</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state8</text>
+        <uniqueID>9</uniqueID>
+        <dimension>
+            <x>309</x>
+            <y>382</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state9</text>
+        <uniqueID>10</uniqueID>
+        <dimension>
+            <x>311</x>
+            <y>474</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state10</text>
+        <uniqueID>11</uniqueID>
+        <dimension>
+            <x>312</x>
+            <y>550</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state11</text>
+        <uniqueID>12</uniqueID>
+        <dimension>
+            <x>322</x>
+            <y>614</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state12</text>
+        <uniqueID>13</uniqueID>
+        <dimension>
+            <x>316</x>
+            <y>682</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state13</text>
+        <uniqueID>14</uniqueID>
+        <dimension>
+            <x>342</x>
+            <y>760</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state14</text>
+        <uniqueID>15</uniqueID>
+        <dimension>
+            <x>321</x>
+            <y>1090</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state15</text>
+        <uniqueID>16</uniqueID>
+        <dimension>
+            <x>359</x>
+            <y>985</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state16</text>
+        <uniqueID>17</uniqueID>
+        <dimension>
+            <x>320</x>
+            <y>899</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state17</text>
+        <uniqueID>18</uniqueID>
+        <dimension>
+            <x>328</x>
+            <y>1191</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state18</text>
+        <uniqueID>19</uniqueID>
+        <dimension>
+            <x>231</x>
+            <y>1270</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="true">
+        <text>Done</text>
+        <uniqueID>20</uniqueID>
+        <dimension>
+            <x>76</x>
+            <y>1175</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state20</text>
+        <uniqueID>21</uniqueID>
+        <dimension>
+            <x>202</x>
+            <y>1047</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="true">
+        <text>Done_2</text>
+        <uniqueID>22</uniqueID>
+        <dimension>
+            <x>37</x>
+            <y>894</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state22</text>
+        <uniqueID>23</uniqueID>
+        <dimension>
+            <x>374</x>
+            <y>1345</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state23</text>
+        <uniqueID>24</uniqueID>
+        <dimension>
+            <x>374</x>
+            <y>1455</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state24</text>
+        <uniqueID>25</uniqueID>
+        <dimension>
+            <x>374</x>
+            <y>1565</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="true">
+        <text>Done_3</text>
+        <uniqueID>26</uniqueID>
+        <dimension>
+            <x>375</x>
+            <y>1675</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state26</text>
+        <uniqueID>27</uniqueID>
+        <dimension>
+            <x>222</x>
+            <y>1125</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state27</text>
+        <uniqueID>28</uniqueID>
+        <dimension>
+            <x>298</x>
+            <y>1560</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="true">
+        <text>Done_4</text>
+        <uniqueID>29</uniqueID>
+        <dimension>
+            <x>299</x>
+            <y>1670</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state29</text>
+        <uniqueID>30</uniqueID>
+        <dimension>
+            <x>450</x>
+            <y>1560</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state30</text>
+        <uniqueID>31</uniqueID>
+        <dimension>
+            <x>571</x>
+            <y>1543</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state34</text>
+        <uniqueID>35</uniqueID>
+        <dimension>
+            <x>222</x>
+            <y>245</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state35</text>
+        <uniqueID>36</uniqueID>
+        <dimension>
+            <x>374</x>
+            <y>245</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state38</text>
+        <uniqueID>39</uniqueID>
+        <dimension>
+            <x>374</x>
+            <y>245</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state39</text>
+        <uniqueID>40</uniqueID>
+        <dimension>
+            <x>175</x>
+            <y>180</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state42</text>
+        <uniqueID>43</uniqueID>
+        <dimension>
+            <x>141</x>
+            <y>180</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state43</text>
+        <uniqueID>44</uniqueID>
+        <dimension>
+            <x>615</x>
+            <y>1252</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state44</text>
+        <uniqueID>45</uniqueID>
+        <dimension>
+            <x>421</x>
+            <y>1280</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state45</text>
+        <uniqueID>46</uniqueID>
+        <dimension>
+            <x>68</x>
+            <y>1354</y>
+        </dimension>
+    </node>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>13</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>replacetext</value>
+                    </Selection>
+                    <Action>
+                        <value>No_Action</value>
+                    </Action>
+                    <Input>
+                        <value>False</value>
+                    </Input>
+                    <transaction_id>9a8c21e7-7bc3-3ca7-fe95-cf8e6e4a3a9a</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">replacetext</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">SetVisible</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">False</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>5</sourceID>
+        <destID>2</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>1</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>group_1</value>
+                    </Selection>
+                    <Action>
+                        <value>No_Action</value>
+                    </Action>
+                    <Input>
+                        <value>False</value>
+                    </Input>
+                    <transaction_id>T1ef09cb7-810f-4334-84dc-9b4c6ae486ed</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">group_1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">SetVisible</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">False</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>1</sourceID>
+        <destID>5</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>16</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>9b1ba909-a2b0-85ae-404f-03d6de7a8866</transaction_id>
+                    <Selection>
+                        <value>combo1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Divided</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at the operations. Is the student performing the same operation on both sides?</hintMessage>
+            <hintMessage>The student is not performing the same operations on both sides. Select the value of the operation on the left side, and the value of the operation on the right side.</hintMessage>
+            <hintMessage>The student divided the left side by 5 and subtracted 5 from the right side.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">Divided</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>2</sourceID>
+        <destID>6</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>18</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>a59fece7-2865-76f5-d4a7-f406b4c22847</transaction_id>
+                    <Selection>
+                        <value>combo2</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>left-hand side</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at the operations. Is the student performing the same operation on both sides?</hintMessage>
+            <hintMessage>The student is not performing the same operations on both sides. Select the value of the operation on the left side, and the value of the operation on the right side.</hintMessage>
+            <hintMessage>The student divided the left side by 5 and subtracted 5 from the right side.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo2</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">left-hand side</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>6</sourceID>
+        <destID>7</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>24</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>combo3</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>by</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at the operations. Is the student performing the same operation on both sides?</hintMessage>
+            <hintMessage>The student is not performing the same operations on both sides. Select the value of the operation on the left side, and the value of the operation on the right side.</hintMessage>
+            <hintMessage>The student divided the left side by 5 and subtracted 5 from the right side.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo3</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">by</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>7</sourceID>
+        <destID>9</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>27</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>combo4</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>5</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at the operations. Is the student performing the same operation on both sides?</hintMessage>
+            <hintMessage>The student is not performing the same operations on both sides. Select the value of the operation on the left side, and the value of the operation on the right side.</hintMessage>
+            <hintMessage>The student divided the left side by 5 and subtracted 5 from the right side.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo4</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">5</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>9</sourceID>
+        <destID>10</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>30</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>combo7</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Subtracted</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at the operations. Is the student performing the same operation on both sides?</hintMessage>
+            <hintMessage>The student is not performing the same operations on both sides. Select the value of the operation on the left side, and the value of the operation on the right side.</hintMessage>
+            <hintMessage>The student divided the left side by 5 and subtracted 5 from the right side.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo7</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">Subtracted</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>10</sourceID>
+        <destID>11</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>33</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>combo8</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>5</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at the operations. Is the student performing the same operation on both sides?</hintMessage>
+            <hintMessage>The student is not performing the same operations on both sides. Select the value of the operation on the left side, and the value of the operation on the right side.</hintMessage>
+            <hintMessage>The student divided the left side by 5 and subtracted 5 from the right side.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo8</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">5</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>11</sourceID>
+        <destID>12</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>36</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>combo9</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>from</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at the operations. Is the student performing the same operation on both sides?</hintMessage>
+            <hintMessage>The student is not performing the same operations on both sides. Select the value of the operation on the left side, and the value of the operation on the right side.</hintMessage>
+            <hintMessage>The student divided the left side by 5 and subtracted 5 from the right side.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo9</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">from</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>12</sourceID>
+        <destID>13</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>39</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>combo10</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>right-hand side</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at the operations. Is the student performing the same operation on both sides?</hintMessage>
+            <hintMessage>The student is not performing the same operations on both sides. Select the value of the operation on the left side, and the value of the operation on the right side.</hintMessage>
+            <hintMessage>The student divided the left side by 5 and subtracted 5 from the right side.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo10</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">right-hand side</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>13</sourceID>
+        <destID>14</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>42</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>group_1</value>
+                    </Selection>
+                    <Action>
+                        <value>No_Action</value>
+                    </Action>
+                    <Input>
+                        <value>True</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">group_1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">SetVisible</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">True</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>16</sourceID>
+        <destID>15</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>46</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>replacetext</value>
+                    </Selection>
+                    <Action>
+                        <value>No_Action</value>
+                    </Action>
+                    <Input>
+                        <value>True</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">replacetext</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">SetVisible</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">True</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>17</sourceID>
+        <destID>16</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>44</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>pk_step</value>
+                    </Selection>
+                    <Action>
+                        <value>No_Action</value>
+                    </Action>
+                    <Input>
+                        <value>False</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">pk_step</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">SetVisible</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">False</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>14</sourceID>
+        <destID>17</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>50</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>group_2</value>
+                    </Selection>
+                    <Action>
+                        <value>No_Action</value>
+                    </Action>
+                    <Input>
+                        <value>False</value>
+                    </Input>
+                    <transaction_id>T8211f09c-1ed8-4424-80c8-f43e1270dd14</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">group_2</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">SetVisible</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">False</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>15</sourceID>
+        <destID>18</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>53</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>28034c8a-7882-03ba-ed09-014c1908c92c</transaction_id>
+                    <Selection>
+                        <value>combo5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>The step does not undo another operation by performing an inverse operation</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'The step does not undo another operation by performing an inverse operation' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo5</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">The step does not undo another operation by performing an inverse operation</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>18</sourceID>
+        <destID>19</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>55</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>1063e177-1094-74d0-905d-a16ed942fdb1</transaction_id>
+                    <Selection>
+                        <value>done</value>
+                    </Selection>
+                    <Action>
+                        <value>ButtonPressed</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">done</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">ButtonPressed</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">-1</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>19</sourceID>
+        <destID>20</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>57</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>ae31ebcd-34c2-791b-54d2-f93d79d3f324</transaction_id>
+                    <Selection>
+                        <value>combo5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>The step does not do the same thing to both sides of the equation</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'The step does not do the same thing to both sides of the equation' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo5</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">The step does not do the same thing to both sides of the equation</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>18</sourceID>
+        <destID>21</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>59</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>63ca0004-bce7-ffef-408d-2d2c613c9f6e</transaction_id>
+                    <Selection>
+                        <value>done</value>
+                    </Selection>
+                    <Action>
+                        <value>ButtonPressed</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">done</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">ButtonPressed</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">-1</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>21</sourceID>
+        <destID>22</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>61</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>2de11639-608b-1ea3-a715-1b89a5648493</transaction_id>
+                    <Selection>
+                        <value>combo5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>This step divided one side and subtracted from the other side</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'This step divided one side and subtracted from the other side' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo5</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">This step divided one side and subtracted from the other side</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>18</sourceID>
+        <destID>23</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>63</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>CorrectAction</MessageType>
+                    <Selection>
+                        <value>group_2</value>
+                    </Selection>
+                    <Action>
+                        <value>No_Action</value>
+                    </Action>
+                    <Input>
+                        <value>True</value>
+                    </Input>
+                    <transaction_id>2de11639-608b-1ea3-a715-1b89a5648493</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">group_2</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">SetVisible</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">True</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>23</sourceID>
+        <destID>24</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>66</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>4ec5799c-9b6b-1e6a-19a0-fa899e98eb55</transaction_id>
+                    <Selection>
+                        <value>combo6</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>The step does not undo another operation by performing an inverse operation</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at both sides of the equation. Does the students' work keep both sides of the equation equal to each other?</hintMessage>
+            <hintMessage>The student does not do the same thing to both sides of the equation. What does this mean for the value of the equation?</hintMessage>
+            <hintMessage>The student divided on one side and subtracted on the other side, which does not keep the equation equal. The value of x = 5 does not make the equation true.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo6</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">The step does not undo another operation by performing an inverse operation</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>24</sourceID>
+        <destID>25</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>68</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>5e3acfc3-7766-7964-cdb0-8b2436b8739f</transaction_id>
+                    <Selection>
+                        <value>done</value>
+                    </Selection>
+                    <Action>
+                        <value>ButtonPressed</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">done</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">ButtonPressed</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">-1</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>25</sourceID>
+        <destID>26</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>70</uniqueID>
+            <message>
+                <verb>SendNoteProperty</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <Selection>
+                        <value>combo5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>This step divided one side and subtracted from the other side</value>
+                    </Input>
+                    <transaction_id>Ta66487a7-3694-45b0-b8cc-c04f513a314b</transaction_id>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'This step divided one side and subtracted from the other side' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo5</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">This step divided one side and subtracted from the other side</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>14</sourceID>
+        <destID>27</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>72</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>27517742-76ea-49e4-3c8e-7df40a01bc33</transaction_id>
+                    <Selection>
+                        <value>combo6</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>The step does not do the same thing to both sides of the equation</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Look at both sides of the equation. Does the students' work keep both sides of the equation equal to each other?</hintMessage>
+            <hintMessage>The student does not do the same thing to both sides of the equation. What does this mean for the value of the equation?</hintMessage>
+            <hintMessage>The student divided on one side and subtracted on the other side, which does not keep the equation equal. The value of x = 5 does not make the equation true.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo6</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">The step does not do the same thing to both sides of the equation</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>24</sourceID>
+        <destID>28</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>74</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>3aac9bf1-183d-9548-99be-d73de683cf08</transaction_id>
+                    <Selection>
+                        <value>done</value>
+                    </Selection>
+                    <Action>
+                        <value>ButtonPressed</value>
+                    </Action>
+                    <Input>
+                        <value>-1</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please click on the highlighted button.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">done</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">ButtonPressed</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">-1</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>28</sourceID>
+        <destID>29</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>76</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>651313c8-4458-4121-2f89-e11bb4e6fd71</transaction_id>
+                    <Selection>
+                        <value>combo6</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>The step does not make the equation simpler</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>This is not a correct explanation. Please select an answer that tells WHY this was an incorrect step.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'The step does not make the equation simpler' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo6</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">The step does not make the equation simpler</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>24</sourceID>
+        <destID>30</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>78</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>351dc937-8e3d-f667-b3b4-9f9d3378228d</transaction_id>
+                    <Selection>
+                        <value>combo6</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>This step does not solve the problem correctly</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>This is not a correct explanation. Please select an answer that tells WHY this was an incorrect step.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'This step does not solve the problem correctly' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo6</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">This step does not solve the problem correctly</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>24</sourceID>
+        <destID>31</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>80</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>0e62a115-44f9-d8b6-c13f-45546cc135c7</transaction_id>
+                    <Selection>
+                        <value>combo1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Subtracted</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Something is incorrect. Please be sure to select what operation the student did, the value of the operation, and whether the operation was done to one side or both sides of the equation.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'Subtracted' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">Subtracted</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>2</sourceID>
+        <destID>35</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>86</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>aa3e8882-45f3-0565-3ef0-5594d4ba408a</transaction_id>
+                    <Selection>
+                        <value>combo1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Multiplied</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Something is incorrect. Please be sure to select what operation the student did, the value of the operation, and whether the operation was done to one side or both sides of the equation.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'Multiplied' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">Multiplied</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>2</sourceID>
+        <destID>39</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>93</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>98ca8750-30b5-b845-4491-0057e37e92d6</transaction_id>
+                    <Selection>
+                        <value>combo1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>Added</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Something is incorrect. Please be sure to select what operation the student did, the value of the operation, and whether the operation was done to one side or both sides of the equation.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'Added' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">Added</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>2</sourceID>
+        <destID>43</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>100</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>d6f96fda-03cb-764a-fecf-20ea71fdb52d</transaction_id>
+                    <Selection>
+                        <value>combo5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>The step does not make "x" by itself</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>This is not a correct explanation. Please select an answer that tells WHY this was an incorrect step.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'The step does not make "x" by itself' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo5</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">The step does not make "x" by itself</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>18</sourceID>
+        <destID>44</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>102</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>b005276a-6f4e-7024-3b6c-e890814cf5fd</transaction_id>
+                    <Selection>
+                        <value>combo5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>This step does not solve the problem correctly</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>This is not a correct explanation. Please select an answer that tells WHY this was an incorrect step.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'This step does not solve the problem correctly' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo5</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">This step does not solve the problem correctly</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>18</sourceID>
+        <destID>45</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>105</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>89446e79-5824-f736-12cf-f0418bdd5d1f</transaction_id>
+                    <Selection>
+                        <value>combo5</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateComboBox</value>
+                    </Action>
+                    <Input>
+                        <value>The step does not make the equation simpler</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>This is not a correct explanation. Please select an answer that tells WHY this was an incorrect step.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please select 'The step does not make the equation simpler' from the highlighted menu.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">combo5</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">The step does not make the equation simpler</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>18</sourceID>
+        <destID>46</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <EdgesGroups ordered="true"></EdgesGroups>
+</stateGraph>
+

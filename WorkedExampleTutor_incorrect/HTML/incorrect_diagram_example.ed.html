@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.5">
+    <!-- End of generator meta tag -->
+    <!--CSS-->
+    <link data-silex-static="true" href="css/silex/normalize.css" rel="stylesheet">
+    <link data-silex-static="true" href="css/silex/front-end.css" rel="stylesheet">
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/releases/latest/CTAT.css" rel="stylesheet">
+    <!--JS-->
+    <script data-silex-static="true" type="text/javascript" src="js/jquery.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="js/jquery-ui.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/latest/ctatloader.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="js/ctat/ctat_editor.min.js"></script>
+    <script type="text/javascript" src="js/silex/mut_observer.js"></script>
+    <script type="text/javascript" src="js/silex/pageable.js"></script>
+    <script type="text/javascript" src="js/silex/front-end.js"></script>
+
+    <style class="silex-inline-styles" type="text/css">
+        .body-initial {background-color: rgb(255, 255, 255);
+        }
+        .silex-id-1598505621021-1 {top: 100px; left: 100px; height: 0px; width: 0px; display: none;
+        }
+        .silex-id-1598505640984-2 {top: 120px; left: 120px; height: 0px; width: 0px; display: none;
+        }
+        .silex-id-1598467987320-2 {top: 170px; left: 260px; height: 20px; width: 120px; font-weight: bold; font-family: "Trebuchet MS", Helvetica, sans-serif;
+        }
+        .silex-id-1598467863884-1 {top: 140px; left: 60px; height: 20px; width: 480px; font-weight: bold; font-family: "Trebuchet MS", Helvetica, sans-serif;
+        }
+        .silex-id-1598468415329-5 {top: 140px; left: 580px; height: 20px; width: 260px; font-weight: bold; font-family: "Trebuchet MS", Helvetica, sans-serif;
+        }
+        .silex-id-1598467116764-0 {top: 40px; left: 40px; height: 620px; width: 1140px; background-color: rgb(244, 255, 215);
+        }
+        .background-initial {background-color: rgb(154, 215, 255); top: 40px; left: 154px; width: 1226px; height: 700px;
+        }
+        .silex-id-1598593071537-0 > button {font-weight: bold; font-family: "Trebuchet MS", Helvetica, sans-serif; background-color: rgb(168, 204, 239);
+        }
+        .silex-id-1598468445926-6 {top: 160px; left: 630px; height: 20px; width: 100px;
+        }
+        .silex-id-1598594447350-2 {top: 160px; left: 930px; height: 20px; width: 100px;
+        }
+        .silex-id-1599244558411-0 {top: 160px; left: 830px; height: 20px; width: 100px;
+        }
+        .silex-id-1600061423846-1 {top: 160px; left: 580px; height: 20px; width: 60px; font-weight: bold; text-align: left; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        }
+        .silex-id-1600061640937-2 {top: 100px; left: 411px; height: 0px; width: 0px; display: none;
+        }
+        .silex-id-1598468263311-4 {top: 270px; left: 240px; height: 20px; width: 180px; font-weight: bold; font-family: "Trebuchet MS", Helvetica, sans-serif; text-align: left;
+        }
+        .silex-id-1598505104976-0 {top: 290px; left: 275px; height: 20px; width: 120px; font-weight: bold; font-family: "Trebuchet MS", Helvetica, sans-serif;
+        }
+        .silex-id-1598469185159-17 {top: 480px; left: 590px; height: 160px; width: 320px; display: flex;
+        }
+        .silex-id-1598469195837-18 {top: 480px; left: 910px; height: 80px; width: 80px;
+        }
+        .silex-id-1598469200896-19 {top: 560px; left: 910px; height: 80px; width: 80px;
+        }
+        .silex-id-1598468985045-15 {top: 350px; left: 580px; height: 40px; width: 560px; font-weight: bold; font-family: "Trebuchet MS", Helvetica, sans-serif;
+        }
+        .silex-id-1599244675514-1 {top: 290px; left: 580px; height: 20px; width: 500px;
+        }
+        .silex-id-1599244786523-2 {top: 390px; left: 580px; height: 20px; width: 500px;
+        }
+        .silex-id-1599244675514-1 > select {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        }
+        .silex-id-1599244786523-2 > select {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        }
+        .silex-id-1598468445926-6 > select {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        }
+        .silex-id-1599244558411-0 > select {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        }
+        .silex-id-1598594447350-2 > select {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        }
+        .silex-id-1600107962190-1 {top: 160px; left: 730px; height: 20px; width: 100px;
+        }
+        .silex-id-1600108171129-2 {top: 220px; left: 630px; height: 20px; width: 100px;
+        }
+        .silex-id-1600108181349-3 {top: 220px; left: 730px; height: 20px; width: 100px;
+        }
+        .silex-id-1600108189827-4 {top: 220px; left: 830px; height: 20px; width: 100px;
+        }
+        .silex-id-1600108196660-5 {top: 220px; left: 930px; height: 20px; width: 100px;
+        }
+        .silex-id-1598593071537-0 {top: 180px; left: 1040px; height: 40px; width: 80px;
+        }
+        .silex-id-1598468876274-13 {top: 270px; left: 580px; height: 20px; width: 260px; font-family: "Trebuchet MS", Helvetica, sans-serif; font-weight: bold;
+        }
+        .silex-id-1600107730967-0 {top: 190px; left: 740px; height: 20px; width: 80px; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight: bold; text-align: center;
+        }
+        .silex-id-1600061251235-0 {top: 180px; left: 520px; height: 120px; width: 560px; font-weight: bold; text-align: center; font-family: "Arial Black", "Arial Black", Gadget, sans-serif; font-style: normal; border-color: rgb(0, 0, 0); font-size: 16px;
+        }
+        .silex-id-1598468261596-3 {top: 230px; left: 60px; height: 20px; width: 280px; font-weight: bold; font-family: "Trebuchet MS", Helvetica, sans-serif;
+        }
+    </style>
+
+
+
+    <style type="text/css" class="silex-style"></style>
+    <script type="text/notjavascript" class="silex-script"></script>
+    <meta name="interface-id" content="correct_diagram_example">
+
+    <meta name="parent-data" content="{&quot;id&quot;:&quot;1BPOW4J_vLZ9fv2mCbHJd_f8DkyeVQeBp&quot;, &quot;path&quot;:&quot;WorkedExampleTutor/HTML/incorrect_example.ed.html&quot;}">
+    <meta name="asset-map" content="{}">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style id="current-page-style">
+        .page-page-1{display:inherit; }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+</head>
+<!--onload = "ctatOnload();"-->
+
+<body data-silex-id="body-initial" class="body-initial prevent-draggable silex-runtime" data-silex-type="container" onload="ctatOnload();" style="" data-gr-c-s-loaded="true">
+    <a id="page-page-1" data-silex-type="page" class="page-element">Page 1</a>
+    <div data-silex-id="background-initial" class="background background-initial editable-style container-element prevent-draggable" data-silex-type="container">
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1598467116764-0 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598467116764-0" id="background1" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false"></div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1598467863884-1 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598467863884-1" id="problemtext1" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">Here is an example of a problem a student is trying to solve.</div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1598467987320-2 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598467987320-2" id="eq1" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">5x = 10</div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1598468261596-3 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598468261596-3" id="problemtext2" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">First, they did this INCORRECT step.</div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1598468263311-4 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598468263311-4" id="eq2" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">5x / 5 = 10 - 5</div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1598468415329-5 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598468415329-5" id="problemtext3" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">What step did they do?</div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1598468445926-6 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1598468445926-6" id="combo1" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-labels="---,Added,Subtracted,Multiplied,Divided" data-ctat-tutor="false" data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false"></div>
+
+
+
+
+
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1598468876274-13 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598468876274-13" id="problemtext4" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">WHY was this an incorrect step?</div>
+
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1598468985045-15 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598468985045-15" id="problemtext5" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">This correctly explains WHAT the student did. Now, we would like you to explain the reason WHY it is incorrect.</div>
+
+        <div data-silex-type="ctat" class="CTATHintWindow editable-style silex-id-1598469185159-17 CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1598469185159-17" id="ctatdiv40" data-ctat-component="CTATHintWindow" onkeypress="return noenter(event)"
+        data-ctat-enabled="true"></div>
+        <div data-silex-type="ctat" id="hint" class="CTATHintButton editable-style silex-id-1598469195837-18 page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598469195837-18" data-ctat-component="CTATHintButton" data-ctat-enabled="true"></div>
+        <div data-silex-type="ctat" id="done" class="CTATDoneButton editable-style silex-id-1598469200896-19 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1598469200896-19" data-ctat-component="CTATDoneButton" data-ctat-enabled="true"></div>
+
+
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1598505104976-0 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1598505104976-0" id="ctatdiv46" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">x = 5</div>
+        <div class="CTATGroupingComponent silex-id-1598505621021-1 group-element page-page-1 paged-element CTATComponent" data-ctat-componentlist="problemtext4,problemtext5,combo5,combo6" id="group_1" data-silex-id="silex-id-1598505621021-1" data-ctat-component="CTATGroupingComponent"
+        data-ctat-enabled="true"></div>
+        <div class="CTATGroupingComponent silex-id-1598505640984-2 group-element page-page-1 paged-element CTATComponent" data-ctat-componentlist="combo6,problemtext5" id="group_2" data-silex-id="silex-id-1598505640984-2" data-ctat-component="CTATGroupingComponent"
+        data-ctat-enabled="true"></div>
+        <div data-silex-type="ctat" class="CTATSubmitButton editable-style silex-id-1598593071537-0 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1598593071537-0" id="checkbutton1" data-ctat-component="CTATSubmitButton"
+        data-ctat-enabled="true" data-ctat-label="Check" data-ctat-target="combo1;combo2;combo3;combo4;combo7;combo8;combo9;combo10" data-ctat-show-feedback="true" data-ctat-tutor="true" data-ctat-disable-on-correct="true" data-ctat-show-hint-highlight="false"></div>
+
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1598594447350-2 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1598594447350-2" id="combo4" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false" data-ctat-tutor="false" data-ctat-labels="---,5,-5,10"></div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1599244558411-0 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1599244558411-0" id="combo3" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-labels="---,to,from,by" data-ctat-tutor="false" data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false"></div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1599244675514-1 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1599244675514-1" id="combo5" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-labels="---,This step divided one side and subtracted from the other side,The step does not undo another operation by performing an inverse operation,The step does not make &quot;x&quot; by itself,The step does not do the same thing to both sides of the equation,This step does not solve the problem correctly,The step does not make the equation simpler"></div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1599244786523-2 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1599244786523-2" id="combo6" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-labels="---,The step does not undo another operation by performing an inverse operation,The step does not do the same thing to both sides of the equation,The step does not make the equation simpler,This step does not solve the problem correctly"></div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1600061251235-0 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1600061251235-0" id="replacetext" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">They divided one side by 5
+            <br>and
+            <br>subtracted 5 from the other side</div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1600061423846-1 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1600061423846-1" id="answertext1" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">They</div>
+        <div class="CTATGroupingComponent silex-id-1600061640937-2 group-element page-page-1 paged-element CTATComponent" data-ctat-componentlist="combo1,combo2,combo3,combo4,answertext1,answertext2,combo7,combo8,combo9,combo10" id="pk_step" data-silex-id="silex-id-1600061640937-2"
+        data-ctat-component="CTATGroupingComponent" data-ctat-enabled="true"></div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1600107730967-0 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1600107730967-0" id="answertext2" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"
+        contenteditable="false">and</div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1600107962190-1 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1600107962190-1" id="combo2" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-show-hint-highlight="false" data-ctat-show-feedback="false" data-ctat-tutor="false" data-ctat-labels="---,left-hand side,right-hand side,both sides"></div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1600108171129-2 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1600108171129-2" id="combo7" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-tutor="false" data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false" data-ctat-labels="---,Added,Subtracted,Multiplied,Divided"></div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1600108181349-3 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1600108181349-3" id="combo8" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-tutor="false" data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false" data-ctat-labels="---,5,-5,10"></div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1600108189827-4 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1600108189827-4" id="combo9" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-tutor="false" data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false" data-ctat-labels="---,to,from,by"></div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1600108196660-5 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1600108196660-5" id="combo10" data-ctat-component="CTATComboBox" data-ctat-enabled="true"
+        data-ctat-tutor="false" data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false" data-ctat-labels="---,left-hand side,right-hand side,both sides"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
