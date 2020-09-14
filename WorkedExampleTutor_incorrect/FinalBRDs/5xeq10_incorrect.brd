@@ -201,14 +201,6 @@
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state26</text>
-        <uniqueID>27</uniqueID>
-        <dimension>
-            <x>222</x>
-            <y>1125</y>
-        </dimension>
-    </node>
-    <node locked="false" doneState="false">
         <text>state27</text>
         <uniqueID>28</uniqueID>
         <dimension>
@@ -968,7 +960,7 @@
                         <matcherParameter name="single">True</matcherParameter>
                     </matcher>
                 </Input>
-                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+                <Actor linkTriggered="true">Tutor (unevaluated)</Actor>
             </matchers>
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
@@ -1028,7 +1020,7 @@
                         <matcherParameter name="single">True</matcherParameter>
                     </matcher>
                 </Input>
-                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+                <Actor linkTriggered="true">Tutor (unevaluated)</Actor>
             </matchers>
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
@@ -1088,7 +1080,7 @@
                         <matcherParameter name="single">False</matcherParameter>
                     </matcher>
                 </Input>
-                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+                <Actor linkTriggered="true">Tutor (unevaluated)</Actor>
             </matchers>
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
@@ -1148,7 +1140,7 @@
                         <matcherParameter name="single">False</matcherParameter>
                     </matcher>
                 </Input>
-                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+                <Actor linkTriggered="true">Tutor (unevaluated)</Actor>
             </matchers>
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
@@ -1508,7 +1500,7 @@
                         <matcherParameter name="single">True</matcherParameter>
                     </matcher>
                 </Input>
-                <Actor linkTriggered="false">Tutor (unevaluated)</Actor>
+                <Actor linkTriggered="true">Tutor (unevaluated)</Actor>
             </matchers>
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
@@ -1640,66 +1632,6 @@
         </rule>
         <sourceID>25</sourceID>
         <destID>26</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
-    <edge>
-        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
-            <uniqueID>70</uniqueID>
-            <message>
-                <verb>SendNoteProperty</verb>
-                <properties>
-                    <MessageType>InterfaceAction</MessageType>
-                    <Selection>
-                        <value>combo5</value>
-                    </Selection>
-                    <Action>
-                        <value>UpdateComboBox</value>
-                    </Action>
-                    <Input>
-                        <value>This step divided one side and subtracted from the other side</value>
-                    </Input>
-                    <transaction_id>Ta66487a7-3694-45b0-b8cc-c04f513a314b</transaction_id>
-                </properties>
-            </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Please select 'This step divided one side and subtracted from the other side' from the highlighted menu.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Correct Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">combo5</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">UpdateComboBox</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">This step divided one side and subtracted from the other side</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Student</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>unnamed</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>14</sourceID>
-        <destID>27</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <edge>

@@ -14,5 +14,7 @@
     <Asset name="incorrect_diagram_example.html" label="Incorrect Diagram Example.Html" description="Incorrect Diagram Example.Html" asset_locator="HTML/incorrect_diagram_example.html"/>
     <Asset name="incorrect_sample.ed.html" label="Incorrect Sample.Ed.Html" description="Incorrect Sample.Ed.Html" asset_locator="HTML/incorrect_sample.ed.html"/>
     <Asset name="incorrect_sample.html" label="Incorrect Sample.Html" description="Incorrect Sample.Html" asset_locator="HTML/incorrect_sample.html"/>
+    <Asset name="correct_diagram_example.ed.html" label="Correct Diagram Example.Ed.Html" description="Correct Diagram Example.Ed.Html" asset_locator="HTML/correct_diagram_example.ed.html"/>
+    <Asset name="correct_diagram_example.html" label="Correct Diagram Example.Html" description="Correct Diagram Example.Html" asset_locator="HTML/correct_diagram_example.html"/>
   </Assets>
 </Package>
