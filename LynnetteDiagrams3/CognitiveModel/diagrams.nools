@@ -1,0 +1,184 @@
+rule StartGenStepDiagrams {
+	salience: 10;
+	when {
+		p: Problem p.timeToGenSteps && !p.generatingSteps;
+		e1: Expr e1.topLevel && e1.side === "left";
+		e2: Expr e2.topLevel && e2.side === "right";
+	} then {
+		clearValidSteps();
+		let eStr = eqStr(e1.terms, e2.terms);
+		modify(p, "generatingSteps", true);
+		assert(new cycleInfo("left", "genDiagrams", true, p.nTransLastCycle, eStr));
+		assert(new rowInfo(16-p.rows.length));
+	}
+}
+
+rule EndGenStepDiagrams {
+	when {
+		p: Problem p.timeToGenSteps && !p.generatingSteps;
+	} then {
+		modify(p, "timeToGenSteps", false);
+		//send valid steps to interface somehow
+		var validStepsArg = stringifyValidSteps();
+		console.log("got next steps arg: "+validStepsArg);
+		if (validStepsArg) {
+			assert(new TPA("_root", "showStepDiagrams", validStepsArg));
+			modify(p, "validStepHints", getValidStepHints());
+		} else {
+			assert(new TPA("_root", "showStepInputs", "arg"));
+		}
+		halt();
+	}
+}
+
+rule PickDiagram {
+	when {
+		prob: Problem {rows: problemRows};
+		sv: StudentValues sv.selection.includes("groupExplain") && sv.input {selection: s, action: a, input: i};
+		not(ci: cycleInfo);
+	} then {
+		console.log("pick diagram, sv is "+JSON.stringify(sv));
+		retract(sv);
+		var diagramRowNum = 15 - problemRows.length;
+		var tutorInput = "radioExplain"+diagramRowNum+"Diagram1";
+		var operation,operand,isFirstRow;
+		var op = i.split(":")[0].split(',');
+		var skills;
+		console.log("pick diagram op[0] is "+op[0]);
+		//get/assert step skills
+		switch(op[0]) {
+			case 'subtraction':
+			case 'addition':
+			case 'multiplication':
+			case 'division':
+				operation = op[0];
+				operand = op[1];
+		}
+		if (_validSteps.length === 1) {
+			skills = _validSteps[0].skills;
+		} else if (_validSteps.length === 0) {
+			skills = ['selectd-given-eq'];
+		} else if (operation) {
+			skills = [getDiagramSkillForTrans(operation, operand)];
+		} else {
+			skills = _validSteps[0].skills;
+		}
+		
+		var step = null;
+		if (_validSteps.length) {
+			step = _validSteps.find((s)=> s.operation === operation && s.operand === operand);
+		}
+		
+		skills.forEach((skill)=> assert(new Skill(skill, 'diagram')));
+		if (checkSAI({selection: s, action: a, input: tutorInput}, () => {
+			
+			console.log("check diagram sai, operation is "+operation);
+			
+			if (op[0]==="given") {
+				isFirstRow = true;
+				return true;
+			} else if (operation) {
+				return true;
+			} else {
+				return false;
+			}	
+		})) {
+			modify(prob, "currentDiagram", null);
+			if (!prob.diagramsFirst) {
+				assert(new TPA("_root", "hideIncorrectDiagrams", 'arg'));
+				assert(new TPA("_root", "showNextRow", 'arg'));
+				assert(new TPA("_root", "showStepInputs", 'arg'));
+				halt();
+			}
+			else {
+				modify(prob, 'validStepHints', []);
+				if (isFirstRow) {
+					assert(new TPA("_root", "showNextRow", 'arg'));
+					modify(prob, "timeToGenSteps", true);
+				} else {
+					modify(prob, "nextStep", {operation: operation, operand: operand, expAfter: step.expAfter});
+					assert(new TPA("_root", "showStepInputs", 'arg'));
+					halt();
+				}
+			}
+		} else {
+			backtrack();
+		}
+	}
+}
+
+rule HintDiagramsFirst {
+	when {
+		h: IsHintMatch;
+		p: Problem p.validStepHints.length;
+	} then {
+		p.validStepHints.forEach((h)=>assert(new Hint(h)));
+		
+		backtrack();
+	}
+}
+
+rule HintDiagramsLast {
+	when {
+		h: IsHintMatch;
+		p: Problem p.currentDiagram {currentDiagram: cd};
+	} then {
+		var operation = cd.operation,
+			operand = cd.operand,
+			expBefore = cd.expBefore,
+			expAfter = cd.expAfter;
+			
+		switch(operation) {
+			case 'initial':
+				assert(new Hint("Remember that you need to keep the length of the tapes equal because they are “balanced”."));
+				assert(new Hint("The tape at the top shows the left-hand side of the equation, and one at the bottom shows the right-hand side of the equation."));
+			break;
+			case 'subtraction': 
+				assert(new Hint("Remember that you need to keep the length of the tapes equal because they are “balanced”."));;
+				assert(new Hint("Remember that you need to subtract (take out) the same thing from both sides."));
+			break;
+			case 'division-simple':
+				assert(new Hint("Remember that you need to keep the length of the tapes equal because they are “balanced”."));
+				assert(new Hint("Remember that you need to divide by the same number from both sides."));
+				assert(new Hint("Make sure to differentiate between subtraction and division and how they are represented."));
+			break;
+			case 'division-complex':
+				assert(new Hint("Remember that you need to keep the length of the tapes equal because they are “balanced”."));
+				assert(new Hint("If you divide a tape by "+operand+", the length of the tape would be 1/"+operand));
+				assert(new Hint("Make sure to differentiate between subtraction and division and how they are represented."));
+			break;
+		}
+		backtrack();
+	}
+}
+
+rule HintDiagramStep {
+	when {
+		h: IsHintMatch;
+		p: Problem p.nextStep;
+		not( ri: rowInfo ) ;
+	} then {
+		var ns = p.nextStep,
+			t = ns.operation,
+			o = ns.operand;
+		assert(new Hint("Now type in the step shown in the diagram you picked"));
+		switch(t) {
+			case "addition":
+				assert(new Hint("The diagram you picked shows adding "+o+" to each side.  Type that step in."));
+				break;
+			case "subtraction":
+				assert(new Hint("The diagram you picked shows subtracting "+o+" from each side.  Type that step in."));
+				break;
+			case "multiplication":
+				assert(new Hint("The diagram you picked shows multiplying each side by "+o+".  Type that step in."));
+				break;
+			case "division":
+				assert(new Hint("The diagram you picked shows dividing both sides by "+o+".  Type that step in."));
+				break;
+		}
+		
+		assert(new Hint("Enter "+ns.expAfter.split("=")[0]+" on the left side."));
+		
+		backtrack();
+	}
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/guppy/guppy-default-osk.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/CTAT.css">
+    <link rel="stylesheet" type="text/css" href="Assets/Lynnette-common.css">
+    <link rel="stylesheet" type="text/css" href="Assets/Lynnette-no-diagrams.css">
+
+    <script type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/guppy/backup/guppy.min.js"></script>
+    <script type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/guppy/guppy_osk.js"></script>
+    <script type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/ctat.min.js"></script>
+    <script type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/mathtutor/ctatloader.js"></script>
+
+    <script type="text/javascript" src="Assets/modelhelperfuns.js"></script>
+    <script type="text/javascript" src="Assets/nools.js"></script>
+    <script type="text/javascript" src="Assets/Lynnette-common.js"></script>
+    <script type="text/javascript" src="Assets/Lynnette-animations.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="topPanel">
+        <div class="row">
+          <div class="solveGroup"><div class="problemText hidden">Please solve for x</div></div>
+        </div>
+        <div class="row">
+          <div id="givenGroup" class="solveGroup">
+            <div id="startLeft" class="left CTATMathInput" data-ctat-tutor="false" data-ctat-highlight="false"></div>
+            <div id="startEqual" class="equalsSign"> = </div>
+            <div id="startRight" class="right CTATMathInput" data-ctat-tutor="false" data-ctat-highlight="false"></div>
+          </div>
+        </div>
+      </div>
+      <div id="middlePanel">
+        <div class="row">
+          <div id="solve1Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft1_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft1" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight1_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight1" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve2Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft2_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft2" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight2_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight2" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve3Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft3_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft3" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight3_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight3" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve4Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft4_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft4" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight4_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight4" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve5Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft5_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft5" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight5_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight5" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve6Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft6_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft6" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight6_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight6" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve7Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft7_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft7" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight7_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight7" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve8Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft8_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft8" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight8_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight8" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve9Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft9_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft9" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight9_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight9" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve10Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft10_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft10" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight10_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight10" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve11Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft11_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft11" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight11_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight11" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div id="solve12Group" class="CTATGroupingComponent solveGroup" data-ctat-use-componentlist="false">
+            <div class="left">
+              <div id="solveLeft12_HWAcc" class="leftTextHW"></div>
+              <div id="solveLeft12" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+            <div class="center">
+              <div class="centerTextHW"></div>
+              <div class="stepEqual"> = </div>
+            </div>
+            <div class="right">
+              <div id="solveRight12_HWAcc" class="rightTextHW"></div>
+              <div id="solveRight12" class="CTATMathInput HWAcc" data-ctat-highlight="false"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row buttons">
+          <div class="solveGroup">
+            <div id="leftHintButton" class="CTATHintButton"></div>
+            <div id="rightHintButton" class="CTATHintButton"></div>
+          </div>
+          <div id="finishButton" class="explainGroup">
+            <div id="doneButton" class="CTATDoneButton"></div>
+          </div>
+        </div>
+        <div class="row hints">
+          <div class="solveGroup">
+            <div id="HintWindow" class="CTATHintWindow"></div>
+          </div>
+          <div class="explainGroup"></div>
+        </div>
+      </div>
+      <div id="bottomPanel">
+        <div id="progressBar" class="CTATSkillWindow" data-ctat-initial="true"></div>
+      </div>
+    </div>
+  </body>
+</html>
