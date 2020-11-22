@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Package name="Lynnette Diagrams 3" label="Lynnette Diagrams 3" description="Lynnette with Diagram Explanations. Third version including new wrong diagrams types." tutor_type="javascript" save_state="true">
+<Package name="Lynnette Diagrams 3_UW" label="Lynnette Diagrams 3_UW" description="Lynnette with Diagram Explanations used in UW Study 1. Third version including new wrong diagrams types." tutor_type="javascript" save_state="true">
   <Problems>
     <Problem name="10eq5plusx-diagrams-first" label="10eq5plusx Diagrams First" description="10eq5plusx Diagrams First" tutor_flag="tutor" problem_file="10eq5plusx-diagrams-first.nools" student_interface="Lynnette-diagrams-first.html">
       <Skills>
@@ -3295,6 +3295,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 2 diagrams first" label="Red Level 2" description="Red Level 2" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3339,6 +3340,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 3 diagrams first" label="Red Level 3" description="Red Level 3" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3379,6 +3381,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 4 diagrams first" label="Red Level 4" description="Red Level 4" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3420,6 +3423,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 1 diagrams last" label="Green Level 1" description="Green Level 1" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3465,6 +3469,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 2 diagrams last" label="Green Level 2" description="Green Level 2" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3509,6 +3514,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 3 diagrams last" label="Green Level 3" description="Green Level 3" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3549,6 +3555,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 4 diagrams last" label="Green Level 4" description="Green Level 4" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3590,6 +3597,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 1 no diagrams" label="Blue Level 1" description="Blue Level 1" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3635,6 +3643,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 2 no diagrams" label="Blue Level 2" description="Blue Level 2" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3679,6 +3688,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 3 no diagrams" label="Blue Level 3" description="Blue Level 3" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3719,6 +3729,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="level 4 no diagrams" label="Blue Level 4" description="Blue Level 4" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3760,6 +3771,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="test diagrams last" label="Test Diagrams Last" description="Test Diagrams Last" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3790,6 +3802,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="test diagrams first" label="Test Diagrams First" description="Test Diagrams First" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3820,6 +3833,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="test no diagrams" label="Test No Diagrams" description="Test No Diagrams" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -3850,6 +3864,7 @@
         <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
         <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
       </Categories>
     </ProblemSet>
     <ProblemSet name="Equations level 1 (red)" label="Equations level 1 (red)" description="Equations level 1 (red)" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
@@ -4226,13 +4241,18 @@
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
       </Categories>
     </ProblemSet>
-    <ProblemSet name="Equations level 6 (red)" label="Equations level 6 (red)" description="Equations level 6 (red)" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+    <ProblemSet name="problem_solving" label="problem_solving" description="problem_solving" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
       <Problems>
-        <Problem name="6xplus1eq13plus2x-diagrams-first" position="1" role="0"/>
-        <Problem name="1plus9xeq8plus2x-diagrams-first" position="2" role="0"/>
-        <Problem name="8xplus3eq5plus6x-diagrams-first" position="3" role="0"/>
-        <Problem name="3plus6xeq9plus4x-diagrams-first" position="4" role="0"/>
-        <Problem name="3xplus5eqxplus11-diagrams-first" position="5" role="0"/>
+        <Problem name="xplus3eq5-no-diagrams" position="1" role="0"/>
+        <Problem name="9eq4plusx-no-diagrams" position="2" role="0"/>
+        <Problem name="10eq2xplus8-no-diagrams" position="3" role="0"/>
+        <Problem name="15eq4xplus3-no-diagrams" position="4" role="0"/>
+        <Problem name="2xplus3eq7-no-diagrams" position="5" role="0"/>
+        <Problem name="3xplus1eq10-no-diagrams" position="6" role="0"/>
+        <Problem name="4xplus1eqxplus10-no-diagrams" position="7" role="0"/>
+        <Problem name="6xeq2xplus8-no-diagrams" position="8" role="0"/>
+        <Problem name="6xeq4xplus10-no-diagrams" position="9" role="0"/>
+        <Problem name="8xeq2xplus6-no-diagrams" position="10" role="0"/>
       </Problems>
       <Skills>
         <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
@@ -4261,13 +4281,18 @@
         <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
       </Categories>
     </ProblemSet>
-    <ProblemSet name="Equations level 6 (blue)" label="Equations level 6 (blue)" description="Equations level 6 (blue)" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+    <ProblemSet name="problem_solving_diagrams" label="problem_solving_diagrams" description="problem_solving_diagrams" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
       <Problems>
-        <Problem name="6xplus1eq13plus2x-no-diagrams" position="1" role="0"/>
-        <Problem name="1plus9xeq8plus2x-no-diagrams" position="2" role="0"/>
-        <Problem name="8xplus3eq5plus6x-no-diagrams" position="3" role="0"/>
-        <Problem name="3plus6xeq9plus4x-no-diagrams" position="4" role="0"/>
-        <Problem name="3xplus5eqxplus11-no-diagrams" position="5" role="0"/>
+        <Problem name="xplus3eq5-diagrams-first" position="1" role="0"/>
+        <Problem name="9eq4plusx-diagrams-first" position="2" role="0"/>
+        <Problem name="10eq2xplus8-diagrams-first" position="3" role="0"/>
+        <Problem name="15eq4xplus3-diagrams-first" position="4" role="0"/>
+        <Problem name="2xplus3eq7-diagrams-first" position="5" role="0"/>
+        <Problem name="3xplus1eq10-diagrams-first" position="6" role="0"/>
+        <Problem name="4xplus1eqxplus10-diagrams-first" position="7" role="0"/>
+        <Problem name="6xeq2xplus8-diagrams-first" position="8" role="0"/>
+        <Problem name="6xeq4xplus10-diagrams-first" position="9" role="0"/>
+        <Problem name="8xeq2xplus6-diagrams-first" position="10" role="0"/>
       </Problems>
       <Skills>
         <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
@@ -4364,22 +4389,6 @@
     <Asset name="testfile diagrams last.nools" label="Testfile Diagrams Last.Nools" description="Testfile Diagrams Last.Nools" asset_locator="CognitiveModel/testfile diagrams last.nools"/>
     <Asset name="testfile diagrams first.nools" label="Testfile Diagrams First.Nools" description="Testfile Diagrams First.Nools" asset_locator="CognitiveModel/testfile diagrams first.nools"/>
     <Asset name="testfile no diagrams.nools" label="Testfile No Diagrams.Nools" description="Testfile No Diagrams.Nools" asset_locator="CognitiveModel/testfile no diagrams.nools"/>
-    <Asset name="diagrams.nools" label="Diagrams.Nools" description="Diagrams.Nools" asset_locator="CognitiveModel/diagrams.nools"/>
-    <Asset name="functions.nools" label="Functions.Nools" description="Functions.Nools" asset_locator="CognitiveModel/functions.nools"/>
-    <Asset name="productionrulesMB.nools" label="Productionrules Mb.Nools" description="Productionrules Mb.Nools" asset_locator="CognitiveModel/productionrulesMB.nools"/>
-    <Asset name="simplificationsFocusedSide.nools" label="Simplifications Focused Side.Nools" description="Simplifications Focused Side.Nools" asset_locator="CognitiveModel/simplificationsFocusedSide.nools"/>
-    <Asset name="simplificationsUnfocusedSide.nools" label="Simplifications Unfocused Side.Nools" description="Simplifications Unfocused Side.Nools" asset_locator="CognitiveModel/simplificationsUnfocusedSide.nools"/>
-    <Asset name="skills.nools" label="Skills.Nools" description="Skills.Nools" asset_locator="CognitiveModel/skills.nools"/>
-    <Asset name="transformations.nools" label="Transformations.Nools" description="Transformations.Nools" asset_locator="CognitiveModel/transformations.nools"/>
-    <Asset name="types.nools" label="Types.Nools" description="Types.Nools" asset_locator="CognitiveModel/types.nools"/>
-    <Asset name="Lynnette-animations.js" label="Lynnette Animations.Js" description="Lynnette Animations.Js" asset_locator="HTML/Assets/Lynnette-animations.js"/>
-    <Asset name="Lynnette-common.css" label="Lynnette Common.Css" description="Lynnette Common.Css" asset_locator="HTML/Assets/Lynnette-common.css"/>
-    <Asset name="Lynnette-diagrams-first.css" label="Lynnette Diagrams First.Css" description="Lynnette Diagrams First.Css" asset_locator="HTML/Assets/Lynnette-diagrams-first.css"/>
-    <Asset name="Lynnette-diagrams-last.css" label="Lynnette Diagrams Last.Css" description="Lynnette Diagrams Last.Css" asset_locator="HTML/Assets/Lynnette-diagrams-last.css"/>
-    <Asset name="Lynnette-no-diagrams.css" label="Lynnette No Diagrams.Css" description="Lynnette No Diagrams.Css" asset_locator="HTML/Assets/Lynnette-no-diagrams.css"/>
-    <Asset name="modelhelperfuns.js" label="Modelhelperfuns.Js" description="Modelhelperfuns.Js" asset_locator="HTML/Assets/modelhelperfuns.js"/>
-    <Asset name="nools.js" label="Nools.Js" description="Nools.Js" asset_locator="HTML/Assets/nools.js"/>
-    <Asset name="Lynnette-common.js" label="Lynnette Common.Js" description="Lynnette Common.Js" asset_locator="HTML/Assets/Lynnette-common.js"/>
     <Asset name="7xeq2xplus5-diagrams-first.nools" label="7xeq2xplus5 Diagrams First.Nools" description="7xeq2xplus5 Diagrams First.Nools" asset_locator="CognitiveModel/7xeq2xplus5-diagrams-first.nools"/>
     <Asset name="9xeq5xplus8-diagrams-first.nools" label="9xeq5xplus8 Diagrams First.Nools" description="9xeq5xplus8 Diagrams First.Nools" asset_locator="CognitiveModel/9xeq5xplus8-diagrams-first.nools"/>
     <Asset name="7xeq2xplus5-no-diagrams.nools" label="7xeq2xplus5 No Diagrams.Nools" description="7xeq2xplus5 No Diagrams.Nools" asset_locator="CognitiveModel/7xeq2xplus5-no-diagrams.nools"/>
@@ -4488,5 +4497,21 @@
     <Asset name="1plusxeq7-no-diagrams.nools" label="1plusxeq7 No Diagrams.Nools" description="1plusxeq7 No Diagrams.Nools" asset_locator="CognitiveModel/1plusxeq7-no-diagrams.nools"/>
     <Asset name="xplus3eq8-no-diagrams.nools" label="Xplus3eq8 No Diagrams.Nools" description="Xplus3eq8 No Diagrams.Nools" asset_locator="CognitiveModel/xplus3eq8-no-diagrams.nools"/>
     <Asset name="xplus6eq8-no-diagrams.nools" label="Xplus6eq8 No Diagrams.Nools" description="Xplus6eq8 No Diagrams.Nools" asset_locator="CognitiveModel/xplus6eq8-no-diagrams.nools"/>
+    <Asset name="diagrams.nools" label="Diagrams.Nools" description="Diagrams.Nools" asset_locator="CognitiveModel/diagrams.nools"/>
+    <Asset name="functions.nools" label="Functions.Nools" description="Functions.Nools" asset_locator="CognitiveModel/functions.nools"/>
+    <Asset name="productionrulesMB.nools" label="Productionrules Mb.Nools" description="Productionrules Mb.Nools" asset_locator="CognitiveModel/productionrulesMB.nools"/>
+    <Asset name="simplificationsFocusedSide.nools" label="Simplifications Focused Side.Nools" description="Simplifications Focused Side.Nools" asset_locator="CognitiveModel/simplificationsFocusedSide.nools"/>
+    <Asset name="simplificationsUnfocusedSide.nools" label="Simplifications Unfocused Side.Nools" description="Simplifications Unfocused Side.Nools" asset_locator="CognitiveModel/simplificationsUnfocusedSide.nools"/>
+    <Asset name="skills.nools" label="Skills.Nools" description="Skills.Nools" asset_locator="CognitiveModel/skills.nools"/>
+    <Asset name="transformations.nools" label="Transformations.Nools" description="Transformations.Nools" asset_locator="CognitiveModel/transformations.nools"/>
+    <Asset name="types.nools" label="Types.Nools" description="Types.Nools" asset_locator="CognitiveModel/types.nools"/>
+    <Asset name="Lynnette-animations.js" label="Lynnette Animations.Js" description="Lynnette Animations.Js" asset_locator="HTML/Assets/Lynnette-animations.js"/>
+    <Asset name="Lynnette-common.css" label="Lynnette Common.Css" description="Lynnette Common.Css" asset_locator="HTML/Assets/Lynnette-common.css"/>
+    <Asset name="Lynnette-diagrams-first.css" label="Lynnette Diagrams First.Css" description="Lynnette Diagrams First.Css" asset_locator="HTML/Assets/Lynnette-diagrams-first.css"/>
+    <Asset name="Lynnette-diagrams-last.css" label="Lynnette Diagrams Last.Css" description="Lynnette Diagrams Last.Css" asset_locator="HTML/Assets/Lynnette-diagrams-last.css"/>
+    <Asset name="Lynnette-no-diagrams.css" label="Lynnette No Diagrams.Css" description="Lynnette No Diagrams.Css" asset_locator="HTML/Assets/Lynnette-no-diagrams.css"/>
+    <Asset name="modelhelperfuns.js" label="Modelhelperfuns.Js" description="Modelhelperfuns.Js" asset_locator="HTML/Assets/modelhelperfuns.js"/>
+    <Asset name="nools.js" label="Nools.Js" description="Nools.Js" asset_locator="HTML/Assets/nools.js"/>
+    <Asset name="Lynnette-common.js" label="Lynnette Common.Js" description="Lynnette Common.Js" asset_locator="HTML/Assets/Lynnette-common.js"/>
   </Assets>
 </Package>
