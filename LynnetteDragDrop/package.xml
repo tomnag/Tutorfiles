@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="Lynnette Drag and Drop 2020-js" label="Lynnette Drag and Drop 2020-js" description="Lynnette Drag and Drop 2020-js" tutor_type="javascript">
+  <Problems>
+    <Problem name="Drag and Drop 2020 Test 1" label="Drag and Drop 2020 Test 1" description="Drag and Drop 2020 Test 1" tutor_flag="tutor" problem_file="20eq4x.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="-10eq-10plus7m.nools" label="10eq 10plus7m.Nools" description="10eq 10plus7m.Nools" tutor_flag="tutor" problem_file="-10eq-10plus7m.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="3xeq7plus3timespxplus1p" label="3xeq7plus3timespxplus1p" description="3xeq7plus3timespxplus1p" tutor_flag="tutor" problem_file="3xeq7plus3timespxplus1p.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="divCancel" label="Div Cancel" description="Div Cancel" tutor_flag="tutor" problem_file="divCancelBug.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="negCoeffBug" label="Neg Coeff Bug" description="Neg Coeff Bug" tutor_flag="tutor" problem_file="negCoeffBug.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="negOneBug" label="Neg One Bug" description="Neg One Bug" tutor_flag="tutor" problem_file="negOneBug.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="4x+2=2x+4" label="4x+2=2x+4" description="4x+2=2x+4" tutor_flag="tutor" problem_file="testfile.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level2_6-xeq3" label="Level2 6 Xeq3" description="Level2 6 Xeq3" tutor_flag="tutor" problem_file="level2_6-xeq3.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level6_3par-2xplus2pareq-12" label="Level6 3par 2xplus2pareq 12" description="Level6 3par 2xplus2pareq 12" tutor_flag="tutor" problem_file="level6_3par-2xplus2pareq-12.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level7_3plus5parx-3pareq-2" label="Level7 3plus5parx 3pareq 2" description="Level7 3plus5parx 3pareq 2" tutor_flag="tutor" problem_file="level7_3plus5parx-3pareq-2.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level4_4xplus1eq9" label="Level4 4xplus1eq9" description="Level4 4xplus1eq9" tutor_flag="tutor" problem_file="level4_4xplus1eq9.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level9_5xplus2eq2xplus8" label="Level9 5xplus2eq2xplus8" description="Level9 5xplus2eq2xplus8" tutor_flag="tutor" problem_file="level9_5xplus2eq2xplus8.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level5_-3xplus5-3plus15xeq14" label="Level5  3xplus5 3plus15xeq14" description="Level5  3xplus5 3plus15xeq14" tutor_flag="tutor" problem_file="level5_-3xplus5-3plus15xeq14.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level10_-3x-2eq2xplus3" label="Level10  3x 2eq2xplus3" description="Level10  3x 2eq2xplus3" tutor_flag="tutor" problem_file="level10_-3x-2eq2xplus3.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level7_4par3x-5parplus10eq14" label="Level7 4par3x 5parplus10eq14" description="Level7 4par3x 5parplus10eq14" tutor_flag="tutor" problem_file="level7_4par3x-5parplus10eq14.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level8_6xeq4xplus10" label="Level8 6xeq4xplus10" description="Level8 6xeq4xplus10" tutor_flag="tutor" problem_file="level8_6xeq4xplus10.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level6_4par5xplus1pareq24" label="Level6 4par5xplus1pareq24" description="Level6 4par5xplus1pareq24" tutor_flag="tutor" problem_file="level6_4par5xplus1pareq24.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level5_4-2xplus10x-1eq19" label="Level5 4 2xplus10x 1eq19" description="Level5 4 2xplus10x 1eq19" tutor_flag="tutor" problem_file="level5_4-2xplus10x-1eq19.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level6_2par2xplus1pareq6" label="Level6 2par2xplus1pareq6" description="Level6 2par2xplus1pareq6" tutor_flag="tutor" problem_file="level6_2par2xplus1pareq6.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level1_xplus3eq5" label="Level1 Xplus3eq5" description="Level1 Xplus3eq5" tutor_flag="tutor" problem_file="level1_xplus3eq5.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level5_2xplus3x-3-5eq7" label="Level5 2xplus3x 3 5eq7" description="Level5 2xplus3x 3 5eq7" tutor_flag="tutor" problem_file="level5_2xplus3x-3-5eq7.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level3_4xeq28" label="Level3 4xeq28" description="Level3 4xeq28" tutor_flag="tutor" problem_file="level3_4xeq28.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level5_-4xplus1-3plus2xeq4" label="Level5  4xplus1 3plus2xeq4" description="Level5  4xplus1 3plus2xeq4" tutor_flag="tutor" problem_file="level5_-4xplus1-3plus2xeq4.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level3_3xeq15" label="Level3 3xeq15" description="Level3 3xeq15" tutor_flag="tutor" problem_file="level3_3xeq15.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level8_7xeq2xplus5" label="Level8 7xeq2xplus5" description="Level8 7xeq2xplus5" tutor_flag="tutor" problem_file="level8_7xeq2xplus5.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level4_8xplus3eq27" label="Level4 8xplus3eq27" description="Level4 8xplus3eq27" tutor_flag="tutor" problem_file="level4_8xplus3eq27.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level1_2plusxeq11" label="Level1 2plusxeq11" description="Level1 2plusxeq11" tutor_flag="tutor" problem_file="level1_2plusxeq11.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level4_2plus3xeq8" label="Level4 2plus3xeq8" description="Level4 2plus3xeq8" tutor_flag="tutor" problem_file="level4_2plus3xeq8.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level2_x-6eq1" label="Level2 X 6eq1" description="Level2 X 6eq1" tutor_flag="tutor" problem_file="level2_x-6eq1.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level7_-4plus2par4-2xpareq8" label="Level7  4plus2par4 2xpareq8" description="Level7  4plus2par4 2xpareq8" tutor_flag="tutor" problem_file="level7_-4plus2par4-2xpareq8.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level4_2xplus3eq7" label="Level4 2xplus3eq7" description="Level4 2xplus3eq7" tutor_flag="tutor" problem_file="level4_2xplus3eq7.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level9_4xplus1eqxplus10" label="Level9 4xplus1eqxplus10" description="Level9 4xplus1eqxplus10" tutor_flag="tutor" problem_file="level9_4xplus1eqxplus10.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level6_3parxplus3pareq12" label="Level6 3parxplus3pareq12" description="Level6 3parxplus3pareq12" tutor_flag="tutor" problem_file="level6_3parxplus3pareq12.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level7_-4plus2par4-2xpareq8-1" label="Level7  4plus2par4 2xpareq8 1" description="Level7  4plus2par4 2xpareq8 1" tutor_flag="tutor" problem_file="level7_-4plus2par4-2xpareq8.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level10_-2xplus1eq-x-10" label="level10 -2xplus1eq-x-10" description="level10 -2xplus1eq-x-10" tutor_flag="tutor" problem_file="level10_-2xplus1eq-x-10.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level4_4plus7xeq25" label="level4_4plus7xeq25" description="level4_4plus7xeq25" tutor_flag="tutor" problem_file="level4_4plus7xeq25.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish1" label="Level1" description="Level1" tutor_flag="tutor" problem_file="level1.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish2" label="Spanish2" description="Spanish2" tutor_flag="tutor" problem_file="level2.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish3" label="Spanish3" description="Spanish3" tutor_flag="tutor" problem_file="level3.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish4" label="Spanish4" description="Spanish4" tutor_flag="tutor" problem_file="level4.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish5" label="Spanish5" description="Spanish5" tutor_flag="tutor" problem_file="level5.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish6" label="Spanish6" description="Spanish6" tutor_flag="tutor" problem_file="level6.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish7" label="Spanish7" description="Spanish7" tutor_flag="tutor" problem_file="level7.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish8" label="Spanish8" description="Spanish8" tutor_flag="tutor" problem_file="level8.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish9" label="Spanish9" description="Spanish9" tutor_flag="tutor" problem_file="level9.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="spanish10" label="Spanish10" description="Spanish10" tutor_flag="tutor" problem_file="level10.nools" student_interface="dragndrop_spanish.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level7_1plus2par2xplus1eq7" label="Level7 1plus2par2xplus1eq7" description="Level7 1plus2par2xplus1eq7" tutor_flag="tutor" problem_file="level7_1plus2par2xplus1eq7.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level7_1plus2par2xplus1eq7-1" label="Level7 1plus2par2xplus1eq7 1" description="Level7 1plus2par2xplus1eq7 1" tutor_flag="tutor" problem_file="level7_1plus2par2xplus1eq7.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level8_7xeq2xplus5-1" label="Level8 7xeq2xplus5 1" description="Level8 7xeq2xplus5 1" tutor_flag="tutor" problem_file="level8_7xeq2xplus5.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level8_2xplus6eq3x" label="Level8 2xplus6eq3x" description="Level8 2xplus6eq3x" tutor_flag="tutor" problem_file="level8_2xplus6eq3x.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level9_4xplus11eqxplus2" label="Level9 4xplus11eqxplus2" description="Level9 4xplus11eqxplus2" tutor_flag="tutor" problem_file="level9_4xplus11eqxplus2.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="level10-2xplus2eq-5xplus8" label="Level10 2xplus2eq 5xplus8" description="Level10 2xplus2eq 5xplus8" tutor_flag="tutor" problem_file="level10-2xplus2eq-5xplus8.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l1p3" label="L1p3" description="L1p3" tutor_flag="tutor" problem_file="additional1.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l1p4" label="L1p4" description="L1p4" tutor_flag="tutor" problem_file="additional2.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l2p3" label="L2p3" description="L2p3" tutor_flag="tutor" problem_file="additional3.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l2p4" label="L2p4" description="L2p4" tutor_flag="tutor" problem_file="additional4.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l3p3" label="L3p3" description="L3p3" tutor_flag="tutor" problem_file="additional5.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l3p4" label="L3p4" description="L3p4" tutor_flag="tutor" problem_file="additional6.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l4p3" label="L4p3" description="L4p3" tutor_flag="tutor" problem_file="additional7.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l4p4" label="L4p4" description="L4p4" tutor_flag="tutor" problem_file="additional8.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l5p3" label="L5p3" description="L5p3" tutor_flag="tutor" problem_file="additional9.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l5p4" label="L5p4" description="L5p4" tutor_flag="tutor" problem_file="additional10.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l6p3" label="L6p3" description="L6p3" tutor_flag="tutor" problem_file="additional11.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l6p4" label="L6p4" description="L6p4" tutor_flag="tutor" problem_file="additional12.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l7p2" label="L7p2" description="L7p2" tutor_flag="tutor" problem_file="additional13.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l7p3" label="L7p3" description="L7p3" tutor_flag="tutor" problem_file="additional14.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l7p4" label="L7p4" description="L7p4" tutor_flag="tutor" problem_file="additional15.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l8p3" label="L8p3" description="L8p3" tutor_flag="tutor" problem_file="additional16.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l9p3" label="L9p3" description="L9p3" tutor_flag="tutor" problem_file="additional17.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="l10p3" label="L10p3" description="L10p3" tutor_flag="tutor" problem_file="additional18.nools" student_interface="index.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+        <Skill name="distribute-multiplication" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+  </Problems>
+  <ProblemSets>
+    <ProblemSet name="Drag and Drop 2020 Test Problems" label="Drag and Drop 2020 Test Problems" description="Drag and Drop 2020 Test Problems" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="Drag and Drop 2020 Test 1" position="1" role="0"/>
+        <Problem name="3xeq7plus3timespxplus1p" position="2" role="0"/>
+        <Problem name="-10eq-10plus7m.nools" position="3" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="0/x Error and Subtract by Negative Error" label="0/x Error and Subtract by Negative Error" description="0/x Error and Subtract by Negative Error" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="-10eq-10plus7m.nools" position="1" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="Drag &amp; Drop 2020 Winter Test" label="Drag &amp; Drop 2020 Winter Test" description="Levels" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level1_xplus3eq5" position="1" role="0"/>
+        <Problem name="level1_2plusxeq11" position="2" role="0"/>
+        <Problem name="level2_6-xeq3" position="3" role="0"/>
+        <Problem name="level2_x-6eq1" position="4" role="0"/>
+        <Problem name="level3_3xeq15" position="5" role="0"/>
+        <Problem name="level3_4xeq28" position="6" role="0"/>
+        <Problem name="level4_2plus3xeq8" position="7" role="0"/>
+        <Problem name="level4_2xplus3eq7" position="8" role="0"/>
+        <Problem name="level5_-3xplus5-3plus15xeq14" position="9" role="0"/>
+        <Problem name="level5_-4xplus1-3plus2xeq4" position="10" role="0"/>
+        <Problem name="level6_2par2xplus1pareq6" position="11" role="0"/>
+        <Problem name="level6_3par-2xplus2pareq-12" position="12" role="0"/>
+        <Problem name="level7_1plus2par2xplus1eq7" position="13" role="0"/>
+        <Problem name="level7_1plus2par2xplus1eq7-1" position="14" role="0"/>
+        <Problem name="level8_7xeq2xplus5-1" position="15" role="0"/>
+        <Problem name="level8_2xplus6eq3x" position="16" role="0"/>
+        <Problem name="level9_5xplus2eq2xplus8" position="17" role="0"/>
+        <Problem name="level9_4xplus11eqxplus2" position="18" role="0"/>
+        <Problem name="level10_-3x-2eq2xplus3" position="19" role="0"/>
+        <Problem name="level10-2xplus2eq-5xplus8" position="20" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="New Levels_DandD" label="New Levels_DandD" description="New Levels_drag and drop" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level1_2plusxeq11" position="1" role="0"/>
+        <Problem name="level1_xplus3eq5" position="2" role="0"/>
+        <Problem name="level2_6-xeq3" position="3" role="0"/>
+        <Problem name="level2_x-6eq1" position="4" role="0"/>
+        <Problem name="level3_3xeq15" position="5" role="0"/>
+        <Problem name="level3_4xeq28" position="6" role="0"/>
+        <Problem name="level4_2plus3xeq8" position="7" role="0"/>
+        <Problem name="level4_2xplus3eq7" position="8" role="0"/>
+        <Problem name="level4_4xplus1eq9" position="9" role="0"/>
+        <Problem name="level4_8xplus3eq27" position="10" role="0"/>
+        <Problem name="level5_-3xplus5-3plus15xeq14" position="11" role="0"/>
+        <Problem name="level5_-4xplus1-3plus2xeq4" position="12" role="0"/>
+        <Problem name="level5_2xplus3x-3-5eq7" position="13" role="0"/>
+        <Problem name="level5_4-2xplus10x-1eq19" position="14" role="0"/>
+        <Problem name="level6_2par2xplus1pareq6" position="15" role="0"/>
+        <Problem name="level6_3par-2xplus2pareq-12" position="16" role="0"/>
+        <Problem name="level6_3parxplus3pareq12" position="17" role="0"/>
+        <Problem name="level6_4par5xplus1pareq24" position="18" role="0"/>
+        <Problem name="level7_-4plus2par4-2xpareq8" position="19" role="0"/>
+        <Problem name="level7_3plus5parx-3pareq-2" position="20" role="0"/>
+        <Problem name="level7_4par3x-5parplus10eq14" position="21" role="0"/>
+        <Problem name="level8_6xeq4xplus10" position="22" role="0"/>
+        <Problem name="level8_7xeq2xplus5" position="23" role="0"/>
+        <Problem name="level7_-4plus2par4-2xpareq8-1" position="24" role="0"/>
+        <Problem name="level9_4xplus1eqxplus10" position="25" role="0"/>
+        <Problem name="level9_5xplus2eq2xplus8" position="26" role="0"/>
+        <Problem name="level10_-2xplus1eq-x-10" position="27" role="0"/>
+        <Problem name="level10_-3x-2eq2xplus3" position="28" role="0"/>
+        <Problem name="level4_4plus7xeq25" position="29" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+        <Asset name="level7_2par2xplus3par-6eq4.nools" position="1"/>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="Spanish" label="Spanish" description="Spanish" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="spanish1" position="1" role="0"/>
+        <Problem name="spanish2" position="2" role="0"/>
+        <Problem name="spanish3" position="3" role="0"/>
+        <Problem name="spanish4" position="4" role="0"/>
+        <Problem name="spanish5" position="5" role="0"/>
+        <Problem name="spanish6" position="6" role="0"/>
+        <Problem name="spanish7" position="7" role="0"/>
+        <Problem name="spanish8" position="8" role="0"/>
+        <Problem name="spanish9" position="9" role="0"/>
+        <Problem name="spanish10" position="10" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level1" label="red_level1" description="red_level1" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level1_xplus3eq5" position="1" role="0"/>
+        <Problem name="level1_2plusxeq11" position="2" role="0"/>
+        <Problem name="l1p3" position="3" role="0"/>
+        <Problem name="l1p4" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level2" label="red_level2" description="red_level2" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level2_x-6eq1" position="1" role="0"/>
+        <Problem name="l2p4" position="2" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level3" label="red_level3" description="red_level3" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level3_3xeq15" position="1" role="0"/>
+        <Problem name="l3p3" position="2" role="0"/>
+        <Problem name="l3p4" position="3" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level4" label="red_level4" description="red_level4" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level4_2xplus3eq7" position="1" role="0"/>
+        <Problem name="level4_2plus3xeq8" position="2" role="0"/>
+        <Problem name="l4p3" position="3" role="0"/>
+        <Problem name="l4p4" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level5" label="red_level5" description="red_level5" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level5_-3xplus5-3plus15xeq14" position="1" role="0"/>
+        <Problem name="level5_-4xplus1-3plus2xeq4" position="2" role="0"/>
+        <Problem name="l5p3" position="3" role="0"/>
+        <Problem name="l5p4" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level6" label="red_level6" description="red_level6" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level6_2par2xplus1pareq6" position="1" role="0"/>
+        <Problem name="level6_3par-2xplus2pareq-12" position="2" role="0"/>
+        <Problem name="l6p3" position="3" role="0"/>
+        <Problem name="l6p4" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level7" label="red_level7" description="red_level7" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level7_1plus2par2xplus1eq7" position="1" role="0"/>
+        <Problem name="l7p2" position="2" role="0"/>
+        <Problem name="l7p3" position="3" role="0"/>
+        <Problem name="l7p4" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level8" label="red_level8" description="red_level8" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level8_2xplus6eq3x" position="1" role="0"/>
+        <Problem name="level8_7xeq2xplus5-1" position="2" role="0"/>
+        <Problem name="l8p3" position="3" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level9" label="red_level9" description="red_level9" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level9_4xplus11eqxplus2" position="1" role="0"/>
+        <Problem name="level9_5xplus2eq2xplus8" position="2" role="0"/>
+        <Problem name="l9p3" position="3" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level10" label="red_level10" description="red_level10" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level10-2xplus2eq-5xplus8" position="1" role="0"/>
+        <Problem name="level10_-3x-2eq2xplus3" position="2" role="0"/>
+        <Problem name="l10p3" position="3" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="Tutor problems with no hint issue" label="Tutor problems with no hint issue" description="Tutor problems with no hint issue" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level2_6-xeq3" position="1" role="0"/>
+        <Problem name="l2p3" position="2" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_level11" label="red_level11" description="red_level11" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level2_6-xeq3" position="1" role="0"/>
+        <Problem name="l2p3" position="2" role="0"/>
+        <Problem name="l4p3" position="3" role="0"/>
+        <Problem name="l4p4" position="4" role="0"/>
+        <Problem name="l5p3" position="5" role="0"/>
+        <Problem name="l5p4" position="6" role="0"/>
+        <Problem name="l6p3" position="7" role="0"/>
+        <Problem name="l6p4" position="8" role="0"/>
+        <Problem name="l7p3" position="9" role="0"/>
+        <Problem name="l7p4" position="10" role="0"/>
+        <Problem name="l8p3" position="11" role="0"/>
+        <Problem name="l9p3" position="12" role="0"/>
+        <Problem name="level10_-3x-2eq2xplus3" position="13" role="0"/>
+        <Problem name="level10-2xplus2eq-5xplus8" position="14" role="0"/>
+        <Problem name="l10p3" position="15" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="red_bonus level!" label="red_bonus level!" description="red_bonus level!" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="level8_2xplus6eq3x" position="1" role="0"/>
+        <Problem name="level9_4xplus11eqxplus2" position="2" role="0"/>
+        <Problem name="level7_1plus2par2xplus1eq7" position="3" role="0"/>
+        <Problem name="level10-2xplus2eq-5xplus8" position="4" role="0"/>
+        <Problem name="level9_5xplus2eq2xplus8" position="5" role="0"/>
+        <Problem name="level6_2par2xplus1pareq6" position="6" role="0"/>
+        <Problem name="level10_-3x-2eq2xplus3" position="7" role="0"/>
+        <Problem name="level8_7xeq2xplus5-1" position="8" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Like Variable Terms" description="Combine Variable Terms" position="4"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Like Constant Terms" description="Combine Constant Terms" position="5"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Const Terms" description="Cancel Constant Terms" position="9"/>
+        <Skill name="distribute-multiplication" category="simplification" label="Distribute Multiplication" description="Distribute Multiplication" position="10"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+  </ProblemSets>
+  <Assets>
+    <Asset name="20eq4x.nools" label="20eq4x.Nools" description="20eq4x.Nools" asset_locator="CognitiveModel/20eq4x.nools"/>
+    <Asset name="index.html" label="Index.Html" description="Index.Html" asset_locator="HTML/index.html"/>
+    <Asset name="-10eq-10plus7m.nools" label="10eq 10plus7m.Nools" description="10eq 10plus7m.Nools" asset_locator="CognitiveModel/-10eq-10plus7m.nools"/>
+    <Asset name="3xeq7plus3timespxplus1p.nools" label="3xeq7plus3timespxplus1p.Nools" description="3xeq7plus3timespxplus1p.Nools" asset_locator="CognitiveModel/3xeq7plus3timespxplus1p.nools"/>
+    <Asset name="divCancelBug.nools" label="Div Cancel Bug.Nools" description="Div Cancel Bug.Nools" asset_locator="CognitiveModel/divCancelBug.nools"/>
+    <Asset name="negCoeffBug.nools" label="Neg Coeff Bug.Nools" description="Neg Coeff Bug.Nools" asset_locator="CognitiveModel/negCoeffBug.nools"/>
+    <Asset name="negOneBug.nools" label="Neg One Bug.Nools" description="Neg One Bug.Nools" asset_locator="CognitiveModel/negOneBug.nools"/>
+    <Asset name="testfile.nools" label="Testfile.Nools" description="Testfile.Nools" asset_locator="CognitiveModel/testfile.nools"/>
+    <Asset name="level2_6-xeq3.nools" label="Level2 6 Xeq3.Nools" description="Level2 6 Xeq3.Nools" asset_locator="CognitiveModel/level2_6-xeq3.nools"/>
+    <Asset name="level6_3par-2xplus2pareq-12.nools" label="Level6 3par 2xplus2pareq 12.Nools" description="Level6 3par 2xplus2pareq 12.Nools" asset_locator="CognitiveModel/level6_3par-2xplus2pareq-12.nools"/>
+    <Asset name="level7_3plus5parx-3pareq-2.nools" label="Level7 3plus5parx 3pareq 2.Nools" description="Level7 3plus5parx 3pareq 2.Nools" asset_locator="CognitiveModel/level7_3plus5parx-3pareq-2.nools"/>
+    <Asset name="level4_4xplus1eq9.nools" label="Level4 4xplus1eq9.Nools" description="Level4 4xplus1eq9.Nools" asset_locator="CognitiveModel/level4_4xplus1eq9.nools"/>
+    <Asset name="level9_5xplus2eq2xplus8.nools" label="Level9 5xplus2eq2xplus8.Nools" description="Level9 5xplus2eq2xplus8.Nools" asset_locator="CognitiveModel/level9_5xplus2eq2xplus8.nools"/>
+    <Asset name="dragndrop.html" label="Dragndrop.Html" description="Dragndrop.Html" asset_locator="HTML/dragndrop.html"/>
+    <Asset name="level5_-3xplus5-3plus15xeq14.nools" label="Level5  3xplus5 3plus15xeq14.Nools" description="Level5  3xplus5 3plus15xeq14.Nools" asset_locator="CognitiveModel/level5_-3xplus5-3plus15xeq14.nools"/>
+    <Asset name="level10_-3x-2eq2xplus3.nools" label="Level10  3x 2eq2xplus3.Nools" description="Level10  3x 2eq2xplus3.Nools" asset_locator="CognitiveModel/level10_-3x-2eq2xplus3.nools"/>
+    <Asset name="level7_4par3x-5parplus10eq14.nools" label="Level7 4par3x 5parplus10eq14.Nools" description="Level7 4par3x 5parplus10eq14.Nools" asset_locator="CognitiveModel/level7_4par3x-5parplus10eq14.nools"/>
+    <Asset name="level8_6xeq4xplus10.nools" label="Level8 6xeq4xplus10.Nools" description="Level8 6xeq4xplus10.Nools" asset_locator="CognitiveModel/level8_6xeq4xplus10.nools"/>
+    <Asset name="level6_4par5xplus1pareq24.nools" label="Level6 4par5xplus1pareq24.Nools" description="Level6 4par5xplus1pareq24.Nools" asset_locator="CognitiveModel/level6_4par5xplus1pareq24.nools"/>
+    <Asset name="level5_4-2xplus10x-1eq19.nools" label="Level5 4 2xplus10x 1eq19.Nools" description="Level5 4 2xplus10x 1eq19.Nools" asset_locator="CognitiveModel/level5_4-2xplus10x-1eq19.nools"/>
+    <Asset name="level6_2par2xplus1pareq6.nools" label="Level6 2par2xplus1pareq6.Nools" description="Level6 2par2xplus1pareq6.Nools" asset_locator="CognitiveModel/level6_2par2xplus1pareq6.nools"/>
+    <Asset name="level1_xplus3eq5.nools" label="Level1 Xplus3eq5.Nools" description="Level1 Xplus3eq5.Nools" asset_locator="CognitiveModel/level1_xplus3eq5.nools"/>
+    <Asset name="level5_2xplus3x-3-5eq7.nools" label="Level5 2xplus3x 3 5eq7.Nools" description="Level5 2xplus3x 3 5eq7.Nools" asset_locator="CognitiveModel/level5_2xplus3x-3-5eq7.nools"/>
+    <Asset name="level3_4xeq28.nools" label="Level3 4xeq28.Nools" description="Level3 4xeq28.Nools" asset_locator="CognitiveModel/level3_4xeq28.nools"/>
+    <Asset name="level5_-4xplus1-3plus2xeq4.nools" label="Level5  4xplus1 3plus2xeq4.Nools" description="Level5  4xplus1 3plus2xeq4.Nools" asset_locator="CognitiveModel/level5_-4xplus1-3plus2xeq4.nools"/>
+    <Asset name="level3_3xeq15.nools" label="Level3 3xeq15.Nools" description="Level3 3xeq15.Nools" asset_locator="CognitiveModel/level3_3xeq15.nools"/>
+    <Asset name="level8_7xeq2xplus5.nools" label="Level8 7xeq2xplus5.Nools" description="Level8 7xeq2xplus5.Nools" asset_locator="CognitiveModel/level8_7xeq2xplus5.nools"/>
+    <Asset name="level4_8xplus3eq27.nools" label="Level4 8xplus3eq27.Nools" description="Level4 8xplus3eq27.Nools" asset_locator="CognitiveModel/level4_8xplus3eq27.nools"/>
+    <Asset name="level1_2plusxeq11.nools" label="Level1 2plusxeq11.Nools" description="Level1 2plusxeq11.Nools" asset_locator="CognitiveModel/level1_2plusxeq11.nools"/>
+    <Asset name="level4_2plus3xeq8.nools" label="Level4 2plus3xeq8.Nools" description="Level4 2plus3xeq8.Nools" asset_locator="CognitiveModel/level4_2plus3xeq8.nools"/>
+    <Asset name="level2_x-6eq1.nools" label="Level2 X 6eq1.Nools" description="Level2 X 6eq1.Nools" asset_locator="CognitiveModel/level2_x-6eq1.nools"/>
+    <Asset name="level7_-4plus2par4-2xpareq8.nools" label="Level7  4plus2par4 2xpareq8.Nools" description="Level7  4plus2par4 2xpareq8.Nools" asset_locator="CognitiveModel/level7_-4plus2par4-2xpareq8.nools"/>
+    <Asset name="level4_2xplus3eq7.nools" label="Level4 2xplus3eq7.Nools" description="Level4 2xplus3eq7.Nools" asset_locator="CognitiveModel/level4_2xplus3eq7.nools"/>
+    <Asset name="level9_4xplus1eqxplus10.nools" label="Level9 4xplus1eqxplus10.Nools" description="Level9 4xplus1eqxplus10.Nools" asset_locator="CognitiveModel/level9_4xplus1eqxplus10.nools"/>
+    <Asset name="level6_3parxplus3pareq12.nools" label="Level6 3parxplus3pareq12.Nools" description="Level6 3parxplus3pareq12.Nools" asset_locator="CognitiveModel/level6_3parxplus3pareq12.nools"/>
+    <Asset name="level10_-2xplus1eq-x-10.nools" label="Level10  2xplus1eq X 10.Nools" description="Level10  2xplus1eq X 10.Nools" asset_locator="CognitiveModel/level10_-2xplus1eq-x-10.nools"/>
+    <Asset name="level4_4plus7xeq25.nools" label="Level4 4plus7xeq25.Nools" description="Level4 4plus7xeq25.Nools" asset_locator="CognitiveModel/level4_4plus7xeq25.nools"/>
+    <Asset name="level1.nools" label="Level1.Nools" description="Level1.Nools" asset_locator="CognitiveModel/level1.nools"/>
+    <Asset name="dragndrop_spanish.html" label="Dragndrop Spanish.Html" description="Dragndrop Spanish.Html" asset_locator="HTML/dragndrop_spanish.html"/>
+    <Asset name="level2.nools" label="Level2.Nools" description="Level2.Nools" asset_locator="CognitiveModel/level2.nools"/>
+    <Asset name="level3.nools" label="Level3.Nools" description="Level3.Nools" asset_locator="CognitiveModel/level3.nools"/>
+    <Asset name="level4.nools" label="Level4.Nools" description="Level4.Nools" asset_locator="CognitiveModel/level4.nools"/>
+    <Asset name="level5.nools" label="Level5.Nools" description="Level5.Nools" asset_locator="CognitiveModel/level5.nools"/>
+    <Asset name="level6.nools" label="Level6.Nools" description="Level6.Nools" asset_locator="CognitiveModel/level6.nools"/>
+    <Asset name="level7.nools" label="Level7.Nools" description="Level7.Nools" asset_locator="CognitiveModel/level7.nools"/>
+    <Asset name="level8.nools" label="Level8.Nools" description="Level8.Nools" asset_locator="CognitiveModel/level8.nools"/>
+    <Asset name="level9.nools" label="Level9.Nools" description="Level9.Nools" asset_locator="CognitiveModel/level9.nools"/>
+    <Asset name="level10.nools" label="Level10.Nools" description="Level10.Nools" asset_locator="CognitiveModel/level10.nools"/>
+    <Asset name="level7_1plus2par2xplus1eq7.nools" label="Level7 1plus2par2xplus1eq7.Nools" description="Level7 1plus2par2xplus1eq7.Nools" asset_locator="CognitiveModel/level7_1plus2par2xplus1eq7.nools"/>
+    <Asset name="level8_2xplus6eq3x.nools" label="Level8 2xplus6eq3x.Nools" description="Level8 2xplus6eq3x.Nools" asset_locator="CognitiveModel/level8_2xplus6eq3x.nools"/>
+    <Asset name="level9_4xplus11eqxplus2.nools" label="Level9 4xplus11eqxplus2.Nools" description="Level9 4xplus11eqxplus2.Nools" asset_locator="CognitiveModel/level9_4xplus11eqxplus2.nools"/>
+    <Asset name="level10-2xplus2eq-5xplus8.nools" label="Level10 2xplus2eq 5xplus8.Nools" description="Level10 2xplus2eq 5xplus8.Nools" asset_locator="CognitiveModel/level10-2xplus2eq-5xplus8.nools"/>
+    <Asset name="favicon.png" label="Favicon.Png" description="Favicon.Png" asset_locator="HTML/Assets/favicon.png"/>
+    <Asset name="global.css" label="Global.Css" description="Global.Css" asset_locator="HTML/Assets/global.css"/>
+    <Asset name="lynnette-sapce-bg.png" label="Lynnette Sapce Bg.Png" description="Lynnette Sapce Bg.Png" asset_locator="HTML/Assets/images/lynnette-sapce-bg.png"/>
+    <Asset name="lynnette-sapce-bg-high.png" label="Lynnette Sapce Bg High.Png" description="Lynnette Sapce Bg High.Png" asset_locator="HTML/Assets/images/lynnette-sapce-bg-high.png"/>
+    <Asset name="dragDropAudioSprite.mp3" label="Drag Drop Audio Sprite.Mp3" description="Drag Drop Audio Sprite.Mp3" asset_locator="HTML/Assets/audio/dragDropAudioSprite.mp3"/>
+    <Asset name="ctat.min.js" label="Ctat.Min.Js" description="Ctat.Min.Js" asset_locator="HTML/Assets/ctat/ctat.min.js"/>
+    <Asset name="modelhelperfuns.js" label="Modelhelperfuns.Js" description="Modelhelperfuns.Js" asset_locator="HTML/Assets/ctat/modelhelperfuns.js"/>
+    <Asset name="nools.js" label="Nools.Js" description="Nools.Js" asset_locator="HTML/Assets/ctat/nools.js"/>
+    <Asset name="diagrams.nools" label="Diagrams.Nools" description="Diagrams.Nools" asset_locator="CognitiveModel/diagrams.nools"/>
+    <Asset name="functions.nools" label="Functions.Nools" description="Functions.Nools" asset_locator="CognitiveModel/functions.nools"/>
+    <Asset name="productionrulesMB.nools" label="Productionrules Mb.Nools" description="Productionrules Mb.Nools" asset_locator="CognitiveModel/productionrulesMB.nools"/>
+    <Asset name="simplificationsFocusedSide.nools" label="Simplifications Focused Side.Nools" description="Simplifications Focused Side.Nools" asset_locator="CognitiveModel/simplificationsFocusedSide.nools"/>
+    <Asset name="simplificationsUnfocusedSide.nools" label="Simplifications Unfocused Side.Nools" description="Simplifications Unfocused Side.Nools" asset_locator="CognitiveModel/simplificationsUnfocusedSide.nools"/>
+    <Asset name="skills.nools" label="Skills.Nools" description="Skills.Nools" asset_locator="CognitiveModel/skills.nools"/>
+    <Asset name="transformations.nools" label="Transformations.Nools" description="Transformations.Nools" asset_locator="CognitiveModel/transformations.nools"/>
+    <Asset name="types.nools" label="Types.Nools" description="Types.Nools" asset_locator="CognitiveModel/types.nools"/>
+    <Asset name="level7_2par2xplus3par-6eq4.nools" label="Level7 2par2xplus3par 6eq4.Nools" description="Level7 2par2xplus3par 6eq4.Nools" asset_locator="CognitiveModel/level7_2par2xplus3par-6eq4.nools"/>
+    <Asset name="ctat.min.js 1" label="Ctat.Min.Js 1" description="Ctat.Min.Js 1" asset_locator="HTML/Assets/ctat.min.js"/>
+    <Asset name="CTAT.css" label="Ctat.Css" description="Ctat.Css" asset_locator="HTML/Assets/CTAT.css"/>
+    <Asset name="math.js" label="Math.Js" description="Math.Js" asset_locator="HTML/Assets/ctat/math.js"/>
+    <Asset name="msgTranslator.js" label="Msg Translator.Js" description="Msg Translator.Js" asset_locator="HTML/Assets/msgTranslator.js"/>
+    <Asset name="spanishLanguagePack.js" label="Spanish Language Pack.Js" description="Spanish Language Pack.Js" asset_locator="HTML/Assets/spanishLanguagePack.js"/>
+    <Asset name="bundle.css" label="Bundle.Css" description="Bundle.Css" asset_locator="HTML/Assets/bundle.css"/>
+    <Asset name="bundle.css.map" label="Bundle.Css.Map" description="Bundle.Css.Map" asset_locator="HTML/Assets/bundle.css.map"/>
+    <Asset name="bundle.js" label="Bundle.Js" description="Bundle.Js" asset_locator="HTML/Assets/bundle.js"/>
+    <Asset name="bundle.js.map" label="Bundle.Js.Map" description="Bundle.Js.Map" asset_locator="HTML/Assets/bundle.js.map"/>
+    <Asset name="additional1.nools" label="Additional1.Nools" description="Additional1.Nools" asset_locator="CognitiveModel/additional1.nools"/>
+    <Asset name="additional2.nools" label="Additional2.Nools" description="Additional2.Nools" asset_locator="CognitiveModel/additional2.nools"/>
+    <Asset name="additional3.nools" label="Additional3.Nools" description="Additional3.Nools" asset_locator="CognitiveModel/additional3.nools"/>
+    <Asset name="additional4.nools" label="Additional4.Nools" description="Additional4.Nools" asset_locator="CognitiveModel/additional4.nools"/>
+    <Asset name="additional5.nools" label="Additional5.Nools" description="Additional5.Nools" asset_locator="CognitiveModel/additional5.nools"/>
+    <Asset name="additional6.nools" label="Additional6.Nools" description="Additional6.Nools" asset_locator="CognitiveModel/additional6.nools"/>
+    <Asset name="additional7.nools" label="Additional7.Nools" description="Additional7.Nools" asset_locator="CognitiveModel/additional7.nools"/>
+    <Asset name="additional8.nools" label="Additional8.Nools" description="Additional8.Nools" asset_locator="CognitiveModel/additional8.nools"/>
+    <Asset name="additional9.nools" label="Additional9.Nools" description="Additional9.Nools" asset_locator="CognitiveModel/additional9.nools"/>
+    <Asset name="additional10.nools" label="Additional10.Nools" description="Additional10.Nools" asset_locator="CognitiveModel/additional10.nools"/>
+    <Asset name="additional11.nools" label="Additional11.Nools" description="Additional11.Nools" asset_locator="CognitiveModel/additional11.nools"/>
+    <Asset name="additional12.nools" label="Additional12.Nools" description="Additional12.Nools" asset_locator="CognitiveModel/additional12.nools"/>
+    <Asset name="additional13.nools" label="Additional13.Nools" description="Additional13.Nools" asset_locator="CognitiveModel/additional13.nools"/>
+    <Asset name="additional14.nools" label="Additional14.Nools" description="Additional14.Nools" asset_locator="CognitiveModel/additional14.nools"/>
+    <Asset name="additional15.nools" label="Additional15.Nools" description="Additional15.Nools" asset_locator="CognitiveModel/additional15.nools"/>
+    <Asset name="additional16.nools" label="Additional16.Nools" description="Additional16.Nools" asset_locator="CognitiveModel/additional16.nools"/>
+    <Asset name="additional17.nools" label="Additional17.Nools" description="Additional17.Nools" asset_locator="CognitiveModel/additional17.nools"/>
+    <Asset name="additional18.nools" label="Additional18.Nools" description="Additional18.Nools" asset_locator="CognitiveModel/additional18.nools"/>
+  </Assets>
+</Package>
