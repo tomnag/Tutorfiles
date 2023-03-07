@@ -1,0 +1,382 @@
+:root {
+  --bluetiful-100: hsl(220, 90%, 96%);
+  --bluetiful-200: hsl(220, 90%, 86%);
+  --bluetiful-300: hsl(220, 87%, 76%);
+  --bluetiful-400: hsl(220, 87%, 66%);
+  --bluetiful-500: hsl(220, 87%, 56%);
+  --bluetiful-600: hsl(220, 86%, 46%);
+  --bluetiful-700: hsl(220, 86%, 36%); 
+
+  --green: hsl(166, 93%, 35%);
+
+  --green-light: hsl(166, 71%, 80%);
+  /* hsl(165, 100%, 86%); */
+  --orange: hsl(33, 89%, 50%);
+  --orange-light: hsl(33, 100%, 87%);
+  --red: hsl(353, 70%, 51%);
+  --red-light: hsl(352, 100%, 92%);
+
+  --grey-25: hsl(0, 0%, 99%);
+  --grey-50: hsl(0, 0%, 98%);
+  --grey-100: hsl(240, 20%, 95%);
+  --grey-200: hsl(234, 13%, 85%);
+  --grey-300: hsl(240, 10%, 70%);
+  --grey-400: hsl(240, 9%, 60%);
+  --grey-500: hsl(237, 8%, 52%);
+  --grey-600: hsl(240, 7%, 44%);
+  --grey-700: hsl(240, 9%, 35%);
+  --grey-800: hsl(240, 10%, 25%);
+  --grey-900: hsl(234, 12%, 16%);
+  
+  --black: hsl(233, 26%, 18%);
+
+  --box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0px;
+}
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: "Helvetica Neue", "Helvetica", Verdana, Arial, sans-serif;
+}
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+#container {
+  border: none;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  background-color: var(--bluetiful-100);
+}
+#topPanel {
+  margin: 0px 5px;
+  padding: 1px;
+}
+#middlePanel {
+  margin: 5px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  border: 1px solid var(--bluetiful-200);
+  border-radius: 10px;
+  flex: auto;
+  overflow-y: auto;
+  background: white; 
+}
+#bottomPanel {
+  margin: 5px;
+  flex: none;
+  display: flex;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#topPanel .row {
+  flex-direction: column;
+}
+@media screen and (orientation: landscape) {
+  #topPanel .row {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+.solveGroup {
+  width: 100%;
+  max-width: 450px;
+  padding: 5px 5px 0px;
+  display: flex;
+  align-items: center;
+}
+.problemText {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  padding-top: 5px !important;
+}
+@media screen and (orientation: landscape) {
+  .solveGroup {
+    margin: 5px 5px 0px;
+    width: 50%;
+    padding: 0px;
+  }
+  .problemText {
+    margin: 0px;
+    /* min-width: calc(50% - 230px); */
+  }
+}
+
+#startLeft {
+  border-color: var(--green-light);
+  text-align: right;
+  font-size: 20px;
+}
+#startEqual {
+  margin: 5px;
+}
+#startRight {
+  border-color: var(--green-light);
+  text-align: left;
+  font-size: 20px;
+}
+
+.guppy_active, .guppy_inactive {
+  border-radius: 5px;
+  padding: 3px;
+  text-align: center;
+}
+.CTATMathInput {
+  border: none;
+  border-radius: 5px;
+  width: calc(100% - 15px);
+  color: black;
+  background-color: inherit;
+}
+#givenGroup {
+  margin: 0;
+}
+#givenGroup .CTATMathInput {
+  border: none;
+}
+#givenGroup .CTATMathInput > div > span {
+  font-weight: bold;
+}
+.CTATMathInput[data-ctat-enabled="false"] {
+  padding: 2px;
+}
+.CTATMathInput .katex .katex-html {
+  min-height: 24px;
+}
+div.CTATMathInput.CTAT--correct {
+  border: 1px solid var(--green);
+  box-shadow: none;
+  color: black;
+  animation-name: correct;
+  animation-duration: 0.7s;
+}
+div.CTATMathInput.CTAT--incorrect div {
+  animation-name: incorrect;
+  animation-duration: 0.7s;
+}
+.CTAT--hint {
+  box-shadow: 0px 0px 7px 2px var(--orange);
+}
+
+.feedback {
+  width: 15px;
+  height: 25px;
+  padding-left: 2px;
+  line-height: 25px;
+  display: block;
+  text-align: left;
+}
+.cross {
+  margin-left: 1px;
+  padding-top: 4px;
+  color: var(--red);
+}
+.tick {
+  margin-left: 1px;
+  color: var(--green);
+}
+
+#middlePanel .row.buttons, #middlePanel .row.hints {
+  display: flex;
+  padding-top: 10px;
+}
+.row.buttons .solveGroup {
+  justify-content: space-between;
+}
+.CTATHintButton, .CTATDoneButton {
+  width: 60px;
+  height: 35px;
+  font-weight: bold;
+}
+.CTATDoneButton {
+  width: 150px;
+  height: 35px;
+  font-weight: bold;
+  
+}
+.CTAT-done-button {
+  text-align: center;
+  color: white;
+  background-color: var(--bluetiful-700);
+  box-shadow: var(--box-shadow);
+  border-radius: 8px;
+  border: none;
+}
+.CTAT-done-button:hover {
+  background-color: var(--bluetiful-500);
+}
+.CTAT-done-button--content {
+  justify-content: center;
+}
+.CTAT-done-button--text {
+  margin-bottom: 0px;
+}
+.CTAT-hint-button--icon, .CTAT-done-button--icon {
+  display: none;
+}
+.CTAT-hint-button {
+  /* border: 2px solid var(--orange); */
+  border: none;
+  background: var(--orange-light);
+  box-shadow: var(--box-shadow);
+  border-radius: 8px;
+}
+
+.CTATHintWindow {
+  margin: 0px 0px 5px;
+  border: 1px solid var(--grey-200);
+  height: 100px;
+  display: none;
+  background-color: var(--grey-50);
+}
+.CTATHintWindow--hint-content {
+  border: none;
+  font-size: 14px;
+  background-color: inherit;
+}
+.CTATHintWindow--button {
+  height: 22px;
+  font-size: 12px;
+  /* line-height: 20px; */
+}
+.CTATHintWindow--hint-indicator-bullet {
+  color: var(--orange);
+}
+
+.CTATSkillWindow {
+  margin: 0px;
+  border: none;
+  height: auto;
+  flex: auto;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 5px;
+  text-align: center;
+  background-color: inherit;
+  font-size: 11px;
+}
+.CTATSkillWindow--skill {
+  height: 18px;
+  flex-direction: column;
+}
+.CTATSkillWindow--bar {
+  width: 100%;
+  flex: none;
+  height: 18px;
+  position: relative;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  border: none;
+  padding: 2px;
+  background-color: #FEFEFE;
+}
+.CTATSkillWindow--label {
+  position: relative;
+  top: -17px;
+  margin-left: 5px;
+  flex: none;
+  height: 17px;
+  line-height: 15px;
+}
+.CTATSkillWindow--initial {
+  position: relative;
+  top: -16px;
+  border-right: 2px solid black;
+  height: inherit;
+  background-color: transparent;
+}
+.CTATSkillWindow--bar--nonmastered {
+  height: 100%;
+  background: var(--bluetiful-200);
+  border-radius: 10px;
+}
+.CTATSkillWindow--bar--mastery {
+  height: 100%;
+  background: var(--green-light);
+  border-radius: 10px;
+}
+.blur {
+  filter: brightness(0.8);
+}
+
+@keyframes correct {
+  0% {background-color: inherit;}
+  5% {background: linear-gradient(to right, var(--green), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  10% {background: linear-gradient(to right, var(--green), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  15% {background: linear-gradient(to right, var(--green), var(--green), var(--green), transparent, transparent, transparent, transparent, transparent, transparent, transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  20% {background: linear-gradient(to right, var(--green), var(--green), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  25% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), transparent, transparent, transparent, transparent, transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  30% {background: linear-gradient(to right, var(--green), var(--green), var(--green), transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  35% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), transparent, transparent, transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  40% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), transparent, transparent, transparent, transparent, transparent, transparent)}
+  45% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  50% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), transparent, transparent, transparent, transparent, transparent)}
+  55% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green),
+                      var(--green), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  60% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), transparent, transparent, transparent, transparent)}
+  65% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green),
+                      var(--green), var(--green), var(--green), transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  70% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), transparent, transparent, transparent)}
+  75% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green),
+                      var(--green), var(--green), var(--green), var(--green), var(--green), transparent, transparent, transparent, transparent, transparent)}
+  80% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), transparent, transparent)}
+  85% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green),
+                      var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), transparent, transparent, transparent)}
+  90% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), transparent)}
+  95% {background: linear-gradient(to right, var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green),
+                      var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), var(--green), transparent)}
+  100% {background-color: var(--green);}
+}
+@keyframes incorrect {
+  0% {background-color: initial;}
+  5% {background: linear-gradient(to left, var(--red), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  10% {background: linear-gradient(to left, var(--red), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  15% {background: linear-gradient(to left, var(--red), var(--red), var(--red), transparent, transparent, transparent, transparent, transparent, transparent, transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  20% {background: linear-gradient(to left, var(--red), var(--red), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  25% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), transparent, transparent, transparent, transparent, transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  30% {background: linear-gradient(to left, var(--red), var(--red), var(--red), transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  35% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), transparent, transparent, transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  40% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), transparent, transparent, transparent, transparent, transparent, transparent)}
+  45% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), transparent,
+                      transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  50% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), transparent, transparent, transparent, transparent, transparent)}
+  55% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red),
+                      var(--red), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  60% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), transparent, transparent, transparent, transparent)}
+  65% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red),
+                      var(--red), var(--red), var(--red), transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  70% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), transparent, transparent, transparent)}
+  75% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red),
+                      var(--red), var(--red), var(--red), var(--red), var(--red), transparent, transparent, transparent, transparent, transparent)}
+  80% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), transparent, transparent)}
+  85% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red),
+                      var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), transparent, transparent, transparent)}
+  90% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), transparent)}
+  95% {background: linear-gradient(to left, var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red),
+                      var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), var(--red), transparent)}
+  100% {background-color: var(--red);}
+}
