@@ -1,0 +1,15 @@
+.solveGroup {
+  order: 2;
+}
+.explainGroup {
+  order: 1;
+}
+#hiddenDoneButton1, #hiddenDoneButton2 {
+  height: 35px;
+  width: 140px;
+  font-family: soleil, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  visibility: hidden;
+}

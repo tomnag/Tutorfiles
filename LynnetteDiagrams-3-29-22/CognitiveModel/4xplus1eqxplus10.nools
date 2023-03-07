@@ -1,0 +1,13 @@
+import("productionrules.nools");
+
+global pName = "4xplus1eqxplus10";
+global initLeft = "4x+1";
+global initRight = "x+10";
+
+global forceSimplify = true;
+global stepSkipLevel = 2;
+global shallowSearch = false;
+global pregenConflictTree = false;
+global parseProblem = true;
+
+global distributionIsTransformation = false;

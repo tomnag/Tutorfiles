@@ -1,0 +1,13 @@
+import("productionrules.nools");
+
+global pName = "x+3eq8";
+global initLeft = "x+3";
+global initRight = "8";
+
+global forceSimplify = true;
+global stepSkipLevel = 2;
+global shallowSearch = false;
+global pregenConflictTree = false;
+global parseProblem = true;
+
+global distributionIsTransformation = false;

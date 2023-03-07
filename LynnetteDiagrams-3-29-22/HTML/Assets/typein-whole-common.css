@@ -1,0 +1,342 @@
+:root {
+  --lightgray: hsl(0deg, 0%, 80%);
+  --green: hsl(90deg, 50%, 60%);
+  --lightgreen: hsl(90deg, 100%, 80%);
+  --blue: hsl(210deg, 50%, 60%);
+  --halflightblue: hsl(210deg, 100%, 70%);
+  --lightblue: hsl(210deg, 100%, 80%);
+  --orange: hsl(51deg, 100%, 50%);
+  --darkorange: hsl(51deg, 100%, 45%);
+  --kiwi: rgb(208, 232, 200);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0px;
+}
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+#container {
+  border: none;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  background-color: var(--kiwi);
+}
+#topPanel {
+  margin: 0px 5px;
+  padding: 1px;
+}
+#middlePanel {
+  margin: 5px;
+  margin-bottom: 0px;
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  flex: auto;
+  overflow-y: auto;
+  background: var(--lightblue);
+}
+#bottomPanel {
+  margin: 5px;
+  flex: none;
+  display: flex;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.solveGroup {
+  width: 100%;
+  max-width: 450px;
+  padding: 5px 5px 0px;
+  display: flex;
+  align-items: center;
+}
+.problemText {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+#startLeft {
+  border-color: var(--kiwi);
+  text-align: right;
+  font-size: 20px;
+}
+#startEqual {
+  margin: 5px;
+}
+#startRight {
+  border-color: var(--kiwi);
+  text-align: left;
+  font-size: 20px;
+}
+
+.guppy_active, .guppy_inactive {
+  border-radius: 5px;
+  padding: 3px;
+  background-color: inherit;
+  text-align: center;
+}
+.CTATMathInput {
+  border: none;
+  border-radius: 5px;
+  width: calc(100% - 15px);
+  color: black;
+  background-color: inherit;
+}
+#givenGroup .CTATMathInput {
+  border: 1px solid var(--green);
+}
+div.CTATMathInput[data-ctat-enabled="true"] {
+  background-color: white;
+}
+div.CTATMathInput[data-ctat-enabled="false"] {
+  border: 1px solid var(--blue);
+  padding: 2px;
+  color: black;
+}
+.CTATMathInput .katex .katex-html {
+  min-height: 24px;
+}
+.CTAT--correct {
+  animation-name: correct;
+  animation-duration: 0.7s;
+}
+.CTAT--incorrect {
+  animation-name: incorrect;
+  animation-duration: 0.7s;
+}
+.CTAT--correct.simulated, .CTAT--incorrect.simulated {
+  animation-name: none;
+}
+.CTAT--hint {
+  box-shadow: 0px 0px 7px 2px yellow;
+}
+
+.feedback {
+  width: 15px;
+  height: 25px;
+  padding-left: 2px;
+  line-height: 25px;
+  display: block;
+  text-align: left;
+}
+.cross {
+  margin-left: 1px;
+  padding-top: 4px;
+  color: red;
+}
+.tick {
+  margin-left: 1px;
+  color: green;
+}
+
+#middlePanel .row.buttons, #middlePanel .row.hints {
+  display: flex;
+}
+.row.buttons .solveGroup {
+  justify-content: space-between;
+}
+.row.buttons .explainGroup {
+  background-color: inherit;
+}
+.CTATButton {
+  width: 130px;
+  height: 30px;
+  font: 15px Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.CTAT-button {
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  text-align: center;
+  background-color: var(--halflightblue);
+  cursor: pointer;
+}
+.CTAT-button:hover {
+  background-color: var(--blue);
+}
+.CTAT-button:disabled {
+  background-color: lightgray;
+}
+.CTATHintButton {
+  width: 50px;
+  height: 30px;
+}
+.CTATDoneButton {
+  width: 130px;
+  height: 30px;
+}
+.CTAT-done-button {
+  border: 1px solid orange;
+  text-align: center;
+  background-color: gold;
+}
+.CTAT-done-button--content {
+  justify-content: center;
+}
+.CTAT-done-button--hover {
+  background-color: var(--darkorange);
+}
+.CTAT-done-button--text {
+  margin-bottom: 0px;
+}
+.CTAT-hint-button--icon, .CTAT-done-button--icon {
+  display: none;
+}
+
+.CTATHintWindow {
+  margin: 0px 0px 5px;
+  border: 1px solid blue;
+  height: 100px;
+  display: none;
+  background-color: inherit;
+}
+.CTATHintWindow--hint-content {
+  border: none;
+  font-size: 14px;
+  background-color: inherit;
+}
+.CTATHintWindow--button {
+  height: 22px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.CTATHintWindow--hint-indicator-bullet {
+  color: var(--blue);
+}
+
+.CTATSkillWindow {
+  margin: 0px;
+  border: none;
+  height: auto;
+  flex: auto;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 5px;
+  text-align: center;
+  background-color: inherit;
+  font-size: 11px;
+}
+.CTATSkillWindow--skill {
+  height: 18px;
+  flex-direction: column;
+}
+.CTATSkillWindow--bar {
+  border-radius: 9px;
+  border-color: var(--green);
+  width: 100%;
+  flex: none;
+  height: 18px;
+}
+.CTATSkillWindow--label {
+  position: relative;
+  top: -17px;
+  margin-left: 3px;
+  flex: none;
+  height: 17px;
+  line-height: 17px;
+}
+.CTATSkillWindow--initial {
+  position: relative;
+  top: -18px;
+  border-right: 1px solid black;
+  height: inherit;
+  background-color: transparent;
+}
+.CTATSkillWindow--bar--nonmastered {
+  height: 100%;
+  background: gold;
+}
+.CTATSkillWindow--bar--mastery {
+  height: 100%;
+  background: limegreen;
+}
+.transition {
+  transition: width 1s ease-in-out;
+}
+.blur {
+  filter: brightness(0.8);
+}
+
+@keyframes correct {
+  0% {background-color: inherit;}
+  5% {background: linear-gradient(to right, green, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent,
+                                  transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  10% {background: linear-gradient(to right, green, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  15% {background: linear-gradient(to right, green, green, green, transparent, transparent, transparent, transparent, transparent, transparent, transparent,
+                                   transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  20% {background: linear-gradient(to right, green, green, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  25% {background: linear-gradient(to right, green, green, green, green, green, transparent, transparent, transparent, transparent, transparent,
+                                   transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  30% {background: linear-gradient(to right, green, green, green, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  35% {background: linear-gradient(to right, green, green, green, green, green, green, green, transparent, transparent, transparent,
+                                   transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  40% {background: linear-gradient(to right, green, green, green, green, transparent, transparent, transparent, transparent, transparent, transparent)}
+  45% {background: linear-gradient(to right, green, green, green, green, green, green, green, green, green, transparent,
+                                   transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  50% {background: linear-gradient(to right, green, green, green, green, green, transparent, transparent, transparent, transparent, transparent)}
+  55% {background: linear-gradient(to right, green, green, green, green, green, green, green, green, green, green,
+                                   green, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  60% {background: linear-gradient(to right, green, green, green, green, green, green, transparent, transparent, transparent, transparent)}
+  65% {background: linear-gradient(to right, green, green, green, green, green, green, green, green, green, green,
+                                   green, green, green, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  70% {background: linear-gradient(to right, green, green, green, green, green, green, green, transparent, transparent, transparent)}
+  75% {background: linear-gradient(to right, green, green, green, green, green, green, green, green, green, green,
+                                   green, green, green, green, green, transparent, transparent, transparent, transparent, transparent)}
+  80% {background: linear-gradient(to right, green, green, green, green, green, green, green, green, transparent, transparent)}
+  85% {background: linear-gradient(to right, green, green, green, green, green, green, green, green, green, green,
+                                   green, green, green, green, green, green, green, transparent, transparent, transparent)}
+  90% {background: linear-gradient(to right, green, green, green, green, green, green, green, green, green, transparent)}
+  95% {background: linear-gradient(to right, green, green, green, green, green, green, green, green, green, green,
+                                   green, green, green, green, green, green, green, green, green, transparent)}
+  100% {background-color: green;}
+}
+@keyframes incorrect {
+  0% {background-color: initial;}
+  5% {background: linear-gradient(to left, red, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent,
+                                  transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  10% {background: linear-gradient(to left, red, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  15% {background: linear-gradient(to left, red, red, red, transparent, transparent, transparent, transparent, transparent, transparent, transparent,
+                                   transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  20% {background: linear-gradient(to left, red, red, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  25% {background: linear-gradient(to left, red, red, red, red, red, transparent, transparent, transparent, transparent, transparent,
+                                   transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  30% {background: linear-gradient(to left, red, red, red, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  35% {background: linear-gradient(to left, red, red, red, red, red, red, red, transparent, transparent, transparent,
+                                   transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  40% {background: linear-gradient(to left, red, red, red, red, transparent, transparent, transparent, transparent, transparent, transparent)}
+  45% {background: linear-gradient(to left, red, red, red, red, red, red, red, red, red, transparent,
+                                   transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  50% {background: linear-gradient(to left, red, red, red, red, red, transparent, transparent, transparent, transparent, transparent)}
+  55% {background: linear-gradient(to left, red, red, red, red, red, red, red, red, red, red,
+                                   red, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  60% {background: linear-gradient(to left, red, red, red, red, red, red, transparent, transparent, transparent, transparent)}
+  65% {background: linear-gradient(to left, red, red, red, red, red, red, red, red, red, red,
+                                   red, red, red, transparent, transparent, transparent, transparent, transparent, transparent, transparent)}
+  70% {background: linear-gradient(to left, red, red, red, red, red, red, red, transparent, transparent, transparent)}
+  75% {background: linear-gradient(to left, red, red, red, red, red, red, red, red, red, red,
+                                   red, red, red, red, red, transparent, transparent, transparent, transparent, transparent)}
+  80% {background: linear-gradient(to left, red, red, red, red, red, red, red, red, transparent, transparent)}
+  85% {background: linear-gradient(to left, red, red, red, red, red, red, red, red, red, red,
+                                   red, red, red, red, red, red, red, transparent, transparent, transparent)}
+  90% {background: linear-gradient(to left, red, red, red, red, red, red, red, red, red, transparent)}
+  95% {background: linear-gradient(to left, red, red, red, red, red, red, red, red, red, red,
+                                   red, red, red, red, red, red, red, red, red, transparent)}
+  100% {background-color: red;}
+}

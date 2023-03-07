@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdn.ctat.cs.cmu.edu/releases/current/guppy/guppy-default-osk.min.css">
+    <link rel="stylesheet" href="https://cdn.ctat.cs.cmu.edu/releases/current/CTAT.css" type="text/css">
+    <link rel="stylesheet" href="Assets/typein-whole-common.css" type="text/css">
+    <link rel="stylesheet" href="Assets/typein-whole-diagrams.css" type="text/css">
+    <link rel="stylesheet" href="Assets/typein-whole-diagrams-choice.css" type="text/css">
+    <link rel="stylesheet" href="Assets/tutor_adaptivity/popups.css" type="text/css">
+
+    <script src="https://cdn.ctat.cs.cmu.edu/releases/current/guppy/guppy.min.js"></script>
+    <script src="https://cdn.ctat.cs.cmu.edu/releases/current/guppy/guppy_osk.js"></script>
+    <script src="https://cdn.ctat.cs.cmu.edu/releases/current/jquery.min.js"></script>
+    <script src="https://cdn.ctat.cs.cmu.edu/releases/lab/ctat.min.js"></script>
+    <script src="https://cdn.ctat.cs.cmu.edu/releases/current/ctatloader.js"></script>
+    <script src="https://cdn.ctat.cs.cmu.edu/releases/current/nools.js"></script>
+
+    <script src="Assets/math.js"></script>
+    <script src="Assets/modelhelperfuns.js"></script>
+    <script src="Assets/typein-common.js"></script>
+    <script src="Assets/typein-diagrams.js"></script>
+    <script src="Assets/tutor_adaptivity/popups.js"></script>
+    <script src="Assets/tutor_adaptivity/transaction_mailer_users.js"></script>
+    <script>
+      window.interfaceType = "diagrams-choice"
+      window.diagramsFirst = true
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="topPanel">
+        <div class="row">
+          <div class="solveGroup">
+            <div class="problemText solveGroup">Please solve for x</div>
+          </div>
+          <div class="explainGroup">
+            <div id="problemTextDiagram" class="problemText hidden">Which diagram shows the current step?</div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="givenGroup" class="solveGroup">
+            <div id="start" class="CTATMathInput" data-ctat-tutor="false" data-ctat-highlight="false"></div>
+          </div>
+          <div id="explain0Group" class="explainGroup CTATGroupingComponent">
+            <div id="radioExplain0Diagram1" class="CTATRadioButton hidden" name="groupExplain0Diagrams">
+              <div class="diagram">
+                <div class="lines">
+                  <div class="line startLine"></div>
+                  <div class="line endLine"></div>
+                </div>
+                <div class="boxes leftBoxes">
+                  <div class="box box1 hidden"></div>
+                  <div class="box box2 hidden"></div>
+                  <div class="box box3 hidden"></div>
+                </div>
+                <div class="boxes rightBoxes">
+                  <div class="box box1 hidden"></div>
+                  <div class="box box2 hidden"></div>
+                  <div class="box box3 hidden"></div>
+                </div>
+              </div>
+            </div>
+            <div id="radioExplain0Diagram2" class="CTATRadioButton hidden" name="groupExplain0Diagrams">
+              <div class="diagram">
+                <div class="lines">
+                  <div class="line startLine"></div>
+                  <div class="line endLine"></div>
+                </div>
+                <div class="boxes leftBoxes">
+                  <div class="box box1 hidden"></div>
+                  <div class="box box2 hidden"></div>
+                  <div class="box box3 hidden"></div>
+                </div>
+                <div class="boxes rightBoxes">
+                  <div class="box box1 hidden"></div>
+                  <div class="box box2 hidden"></div>
+                  <div class="box box3 hidden"></div>
+                </div>
+              </div>
+            </div>
+            <div id="radioExplain0Diagram3" class="CTATRadioButton hidden" name="groupExplain0Diagrams">
+              <div class="diagram">
+                <div class="lines">
+                  <div class="line startLine"></div>
+                  <div class="line endLine"></div>
+                </div>
+                <div class="boxes leftBoxes">
+                  <div class="box box1 hidden"></div>
+                  <div class="box box2 hidden"></div>
+                  <div class="box box3 hidden"></div>
+                </div>
+                <div class="boxes rightBoxes">
+                  <div class="box box1 hidden"></div>
+                  <div class="box box2 hidden"></div>
+                  <div class="box box3 hidden"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="middlePanel">
+        <template id="rowTemplate">
+          <div class="row">
+            <div class="solveGroup CTATGroupingComponent" data-ctat-use-componentlist="false">
+              <div class="CTATMathInput" data-ctat-highlight="false" data-ctat-submit-on-blur="false"></div>
+              <div class="feedback"></div>
+            </div>
+            <div class="explainGroup CTATGroupingComponent">
+              <div class="CTATRadioButton hidden">
+                <div class="diagram">
+                  <div class="lines">
+                    <div class="line startLine"></div>
+                    <div class="line endLine"></div>
+                  </div>
+                  <div class="boxes leftBoxes">
+                    <div class="box box1 hidden"></div>
+                    <div class="box box2 hidden"></div>
+                    <div class="box box3 hidden"></div>
+                    <div class="box box4 hidden"></div>
+                    <div class="box box5 hidden"></div>
+                    <div class="box box6 hidden"></div>
+                  </div>
+                  <div class="boxes rightBoxes">
+                    <div class="box box1 hidden"></div>
+                    <div class="box box2 hidden"></div>
+                    <div class="box box3 hidden"></div>
+                    <div class="box box4 hidden"></div>
+                    <div class="box box5 hidden"></div>
+                    <div class="box box6 hidden"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="CTATRadioButton hidden">
+                <div class="diagram">
+                  <div class="lines">
+                    <div class="line startLine"></div>
+                    <div class="line endLine"></div>
+                  </div>
+                  <div class="boxes leftBoxes">
+                    <div class="box box1 hidden"></div>
+                    <div class="box box2 hidden"></div>
+                    <div class="box box3 hidden"></div>
+                    <div class="box box4 hidden"></div>
+                    <div class="box box5 hidden"></div>
+                    <div class="box box6 hidden"></div>
+                  </div>
+                  <div class="boxes rightBoxes">
+                    <div class="box box1 hidden"></div>
+                    <div class="box box2 hidden"></div>
+                    <div class="box box3 hidden"></div>
+                    <div class="box box4 hidden"></div>
+                    <div class="box box5 hidden"></div>
+                    <div class="box box6 hidden"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="CTATRadioButton hidden">
+                <div class="diagram">
+                  <div class="lines">
+                    <div class="line startLine"></div>
+                    <div class="line endLine"></div>
+                  </div>
+                  <div class="boxes leftBoxes">
+                    <div class="box box1 hidden"></div>
+                    <div class="box box2 hidden"></div>
+                    <div class="box box3 hidden"></div>
+                    <div class="box box4 hidden"></div>
+                    <div class="box box5 hidden"></div>
+                    <div class="box box6 hidden"></div>
+                  </div>
+                  <div class="boxes rightBoxes">
+                    <div class="box box1 hidden"></div>
+                    <div class="box box2 hidden"></div>
+                    <div class="box box3 hidden"></div>
+                    <div class="box box4 hidden"></div>
+                    <div class="box box5 hidden"></div>
+                    <div class="box box6 hidden"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+        <div class="row buttons">
+          <div class="explainGroup">
+            <div id="hiddenDoneButton1" class="CTATDoneButton" data-ctat-enabled="false"></div>
+          </div>
+          <div class="solveGroup">
+            <div id="diagramsButton" class="CTATButton" data-ctat-enabled="true" data-ctat-show-feedback="false">Use Diagrams?</div>
+            <div id="hintButton" class="CTATHintButton"></div>
+          </div>
+        </div>
+        <div class="row hints">
+          <div class="solveGroup">
+            <div id="HintWindow" class="CTATHintWindow"></div>
+          </div>
+        </div>
+        <div class="row buttons">
+          <div class="explainGroup">
+            <div id="hiddenDoneButton2" class="CTATDoneButton" data-ctat-enabled="false"></div>
+          </div>
+          <div class="solveGroup" style="justify-content: center;">
+            <div id="doneButton" class="CTATDoneButton"></div>
+          </div>
+        </div>
+      </div>
+      <div id="bottomPanel">
+        <div id="progressBar" class="CTATSkillWindow" data-ctat-initial="true"></div>
+      </div>
+    </div>
+    <div id="popup" class="popup">
+      <div class="CTATButton" id="popupImage" data-ctat-enabled="false"></div>
+      <div class="CTATTextField" id="popupText">&nbsp;</div>
+      <div class="CTATButton" id="popupCloseButton" data-ctat-tutor="false">Ok, got it</div>
+    </div>
+  </body>
+</html>

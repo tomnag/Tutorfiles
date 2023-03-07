@@ -1,0 +1,13 @@
+/* For moving the toolbar up
+.CTATTutor {
+    display: block;
+} */
+
+/* Yun set the following height so that it's close to the Spring 20 version (144px), rathern than the current 176px */
+.CTATTools {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 1px;
+}

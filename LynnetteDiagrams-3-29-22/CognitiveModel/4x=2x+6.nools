@@ -1,0 +1,14 @@
+import('productionrules.nools');
+global pName = '4x_eq_2x+6';
+global initLeft = '4x';
+global initRight = '2x+6';
+global stepSkipLevel = 3;
+global shallowSearch = false;
+global forceSimplify = false;
+global pregenConflictTree = false;
+global parseProblem = true;
+global interfaceType = 'typein';
+global operatorsFirst = true;
+global language = "english";
+global diagramsFirst = false;
+global distributionIsTransformation = false;

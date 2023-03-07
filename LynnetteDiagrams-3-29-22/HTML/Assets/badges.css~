@@ -1,0 +1,109 @@
+.hidden {
+    display: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.bluetext {
+    color: #2196f3;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#level_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#leveledup {
+    margin: 0.5em 2em 0em 2em;;
+}
+.caption {
+    font-size: 10pt;
+    margin: 0.5em;
+}
+#chartDesc {
+    display:flex;
+    align-items: center;
+}
+#chartAndFeedback {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em 2em;
+}
+#badgesAndFeedback {
+    display: flex;
+    flex-direction: column;
+}
+#badges {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em 1em;
+}
+.badge {
+    width: 33%;
+    min-width: 7em;
+    padding: 1em;
+}
+.badgeLabel {
+    text-align: center;
+    position: relative;
+    bottom: 52%;
+    z-index: 10;
+    padding: 0em 0.3em;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+#dashboard {
+    display: flex;
+    flex-direction: column;
+}
+.feedback {
+    background-color: lightblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.feedbackPrompt {
+    font-weight: bold;
+    font-stretch: condensed;
+    text-align: center;
+    margin: 0.5em 1.5em;
+}
+#likertContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.rbContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0em 1.5em 0.5em 1.5em;
+}
+.rbWithIcon {
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-around;
+}
+.labelUnder {
+    flex-direction: column;
+}
+#text_moreDetails {
+    width: calc(100% - 2em);
+    margin: 0em 1.5em 0.5em 1.5em;
+}
+#text_moreDetails > textarea {
+    overflow-y: scroll;
+    min-height: 5em;
+}
+#footer {
+    display: flex;
+    justify-content: flex-end;
+}

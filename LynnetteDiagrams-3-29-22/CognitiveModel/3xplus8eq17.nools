@@ -1,0 +1,13 @@
+import("productionrules.nools");
+
+global pName = "3xplus8eq17";
+global initLeft = "3x+8";
+global initRight = "17";
+
+global forceSimplify = true;
+global stepSkipLevel = 2;
+global shallowSearch = false;
+global pregenConflictTree = false;
+global parseProblem = true;
+
+global distributionIsTransformation = false;

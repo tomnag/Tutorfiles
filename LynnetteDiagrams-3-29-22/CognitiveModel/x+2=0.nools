@@ -1,0 +1,14 @@
+import('productionrules.nools');
+global pName = 'x+2_eq_0';
+global initLeft = 'x+2';
+global initRight = '0';
+global stepSkipLevel = 3;
+global shallowSearch = false;
+global forceSimplify = false;
+global pregenConflictTree = false;
+global parseProblem = true;
+global interfaceType = 'typein';
+global operatorsFirst = true;
+global language = "english";
+global diagramsFirst = false;
+global distributionIsTransformation = false;

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id='Description'>Badges and Feedback</title>
+    <meta name="description" content="A page to show your progress and ask for your opinions." />
+    <link rel="stylesheet" href="https://cdn.ctat.cs.cmu.edu/releases/lab/CTAT.css" type="text/css">
+    <link rel="stylesheet" href="Assets/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="Assets/jqwidgets/styles/jqx.light.css" type="text/css" />
+    <link rel="stylesheet" href="Assets/badges.css" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 minimum-scale=1" />      
+    <script type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/lab/jquery.min.js"></script>
+    <script type="text/javascript" src="Assets/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="Assets/jqwidgets/jqxdraw.js"></script>
+    <script type="text/javascript" src="Assets/jqwidgets/jqxchart.core.js"></script>
+    <script type="text/javascript" src="Assets/jqwidgets/demos.js"></script>
+    <script type="text/javascript" src="Assets/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript">
+      let nps={};
+
+      function swapElements(showHide) {
+        let elt=null;
+        try {
+          showHide=( typeof(showHide)=="string" && JSON.parse(showHide) || showHide );
+        } catch(e) {
+          console.log("swapElements error parsing showHide", showHide, e);
+          return;
+        }
+        for(cmd in showHide) {
+          if(elt=document.getElementById(showHide[cmd])) {
+            switch(cmd) {
+            case "hide": elt.classList.add("hidden"); break;
+            case "show": elt.classList.remove("hidden"); break;
+            }
+          }
+        }
+      }
+      function getLatestSkillLabel() {
+        let result="No new skill";
+        try {
+          let osks={}, maxPKnownDelta=0, bestSk=null; 
+          JSON.parse(nps && nps.history.skills || "[]").forEach(sk => osks[sk.skillName]=sk);
+          let nskList=JSON.parse(CTATConfiguration.get('skills'));
+          console.log("nps, osks, nskList", nps, osks, nskList);
+          nskList.forEach(sk => { 
+            let osk=osks[""+sk.name+" "+sk.category] || {pKnown: 2};
+            if(maxPKnownDelta <= sk.p_known-osk.pKnown) {
+              maxPKnownDelta = sk.p_known-osk.pKnown;
+              bestSk=sk;
+              console.log("maxPKnownDelta, bestSk.label", maxPKnownDelta, bestSk.label)
+            }
+          });
+          bestSk && (result=bestSk.label || bestSk.name);
+        } catch(e) {
+            console.log("getLatestSkillLabel: Error getting skills", e)
+        }
+        return result;
+      }
+      document.addEventListener("tutorInitialized", function() {
+        let performanceData=null;
+        try {
+          let allDetectorOutputs=JSON.parse(CTATConfiguration.get('detectors'));
+          nps=allDetectorOutputs.find(d => /newProblemSet/i.test(d.name));
+          performanceData=allDetectorOutputs.find(d => /consecutive_errors/i.test(d.name));
+          console.log("nps, performanceData", nps, performanceData);
+        } catch(e) {
+          console.log("badges initialization: error parsing performanceData", performanceData, e);
+          return;
+        }
+        // show firstTimeUsingDiagrams badge if due
+        if(nps.history.diagProblem0) {
+          $('#firstTimeUsingDiagrams').removeClass('hidden');
+        }
+        // prepare chart data as an array
+        let d = performanceData.history.postDiag;
+        let n = performanceData.history.postSymb;
+        // document.getElementById('chartTitle').innerText=""+d.correct+"/"+d.total+" Questions Correct";
+        let scale = 100;
+        let chartData = [{
+          "Percent Correct": "",
+          "With Diagrams": (d&&d.total)?Math.round(d.correct/d.total*scale):0,
+          "Without Diagrams": (n&&n.total)?Math.round(n.correct/n.total*scale):0 
+        }];
+        // prepare jqxChart settings
+        var settings = {
+          title: " ",
+          description: "",
+          enableAnimations: true,
+          showLegend: true,
+          padding: { left: 5, top: 5, right: 5, bottom: 5 },
+          titlePadding: { left: 10, top: 0, right: 0, bottom: 10 },
+          source: chartData,
+          xAxis: {
+            dataField: 'Percent Correct',
+            showGridLines: false
+          },
+          colorScheme: 'scheme01',
+          seriesGroups: [
+            {
+              type: 'column',
+              columnsGapPercent: 0,
+              seriesGapPercent: 75,
+              valueAxis: {
+                unitInterval: 20,
+                minValue: 0,
+                maxValue: scale,
+                displayValueAxis: true,
+                description: 'Percent Correct',
+                axisSize: 'auto',
+                tickMarksColor: '#FFFFFF'
+              },
+              series: [
+                { dataField: 'With Diagrams', displayText: 'With Diagrams'},
+                { dataField: 'Without Diagrams', displayText: 'Without Diagrams'}
+              ]
+            }
+          ]
+        };
+
+        $('#jqxChart').jqxChart(settings);  // setup the chart
+      });
+    </script>
+    <script src="https://cdn.ctat.cs.cmu.edu/releases/lab/ctat.min.js"></script>
+    <script src="https://cdn.ctat.cs.cmu.edu/releases/lab/ctatloader.js"></script>
+</head>
+<body class='default'>
+  <main id="main">
+    <section id="header">
+      <div id="problemSetName" class="CTATTextField"></div>
+      <div id="student_id" class="CTATTextField"></div>
+    </section>
+    <section id="dashboard">
+      <div id="level_header">
+        <div id="leveledup" class="bluetext">You've leveled up!</div>
+        <div id="reachedLevel" class="CTATTextField caption"></div>
+      </div>
+      <div id="chartAndFeedback">
+        <div id='chart' style="margin: 0 auto; width: 50%; height: fit-content; display: flex; flex-direction: column; align-items: center; margin: 1em;">
+          <div id="chartTitle" class="bluetext">How well am I doing with diagrams?</div>
+          <div id='host' style="margin: 0 auto; width:100%; height:300px;">
+            <div id='jqxChart' style="width:inherit; height:300px; position: relative; left: 0px; top: 0px;">
+            </div>
+          </div>
+          <div id="chartDesc">
+            <img src="Assets/images/alienSmallest.png" />
+            <div id="chartDescText" class="caption">This graph shows how well you are doing with and without diagrams. The higher the bar is, the better you are doing. Do you think diagrams help you solve problems correctly?</div>
+          </div>
+        </div>
+        <div id="badgesAndFeedback">
+          <div id="gotNewBadges" class="bluetext">You received new badges!</div>
+          <div id="badges">
+            <div id="firstTimeUsingDiagrams" class="badge hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%">
+                <circle cx="50" cy="50" r="50" fill="yellow" id="ftudCircle"/>
+              </svg>
+              <div id="ftudText" class="badgeLabel">Used<br/>diagrams to<br/>guide problem<br/>solving</div>
+            </div>
+            <div id="levelMastery" class="badge">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%">
+                <circle cx="50" cy="50" r="50" fill="blue" id="lmCircle"/>
+              </svg>
+              <div id="lmText" class="CTATTextField badgeLabel" style="color: white;"></div>
+            </div>
+            <div id="skillMastery" class="badge">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%">
+                <circle cx="50" cy="50" r="50" fill="lightblue" id="lmCircle"/>
+              </svg>
+              <div id="smText" class="CTATTextField badgeLabel"></div>
+            </div>
+          </div>
+          <div id="likertFeedback" class="feedback">
+            <div class="feedbackPrompt">Let's take a look at the graph on the left. Do you think diagrams help you solve problems successfully?</div>
+            <div id="likertButtonContainer" class="rbContainer">
+              <div class="rbWithIcon">
+                <img class="smiley" src="Assets/images/smiley4.jpeg" />
+                <div id="rb_sad" class="CTATRadioButton labelUnder" name="likertDiagsHelp" data-ctat-show-feedback="false">Not at all</div>
+              </div>
+              <div class="rbWithIcon">
+                <img class="smiley" src="Assets/images/smiley5.jpeg" />
+                <div id="rb_doubtful" class="CTATRadioButton labelUnder" name="likertDiagsHelp" data-ctat-show-feedback="false">Doubtful</div>
+              </div>
+              <div class="rbWithIcon">
+                <img class="smiley" src="Assets/images/smiley3.jpeg" />
+                <div id="rb_somewhat" class="CTATRadioButton labelUnder" name="likertDiagsHelp" data-ctat-show-feedback="false">Somewhat</div>
+              </div>
+              <div class="rbWithIcon">
+                <img class="smiley" src="Assets/images/smiley2.jpeg" />
+                <div id="rb_mostly" class="CTATRadioButton labelUnder" name="likertDiagsHelp" data-ctat-show-feedback="false">Mostly</div>
+              </div>
+              <div class="rbWithIcon">
+                <img class="smiley" src="Assets/images/smiley1.jpeg" />
+                <div id="rb_extremely" class="CTATRadioButton labelUnder" name="likertDiagsHelp" data-ctat-show-feedback="false">Extremely</div>
+              </div>
+            </div>
+          </div>
+          <div id="textFeedback" class="feedback hidden">
+            <div class="feedbackPrompt">Would you like to provide more details?</div>
+            <div id="text_moreDetails" class="CTATTextArea" data-ctat-show-feedback="false" data-ctat-disable-on-correct="false"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div id="done" class="CTATDoneButton" />
+    </section>
+    </main>
+</body>
+</html>

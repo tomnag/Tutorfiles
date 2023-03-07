@@ -1,0 +1,14 @@
+import('productionrules.nools');
+global pName = '4+3(-1+x)_eq_7';
+global initLeft = '4+3(-1+x)';
+global initRight = '7';
+global stepSkipLevel = 3;
+global shallowSearch = false;
+global forceSimplify = false;
+global pregenConflictTree = false;
+global parseProblem = true;
+global interfaceType = 'typein';
+global operatorsFirst = true;
+global language = "english";
+global diagramsFirst = false;
+global distributionIsTransformation = false;

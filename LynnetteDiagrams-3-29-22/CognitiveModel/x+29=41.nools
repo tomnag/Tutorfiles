@@ -1,0 +1,15 @@
+import('productionrules.nools');
+global pName = 'x+29_eq_41';
+global initLeft = 'x + 29';
+global initRight = '41';
+global stepSkipLevel = 2;
+global shallowSearch = false;
+global forceSimplify = false;
+global pregenConflictTree = false;
+global parseProblem = true;
+global interfaceType = 'diagrams-choice';
+global operatorsFirst = true;
+global language = "english";
+global diagramsFirst = true;
+global chooseDiagrams = false;
+global distributionIsTransformation = false;

@@ -1,0 +1,395 @@
+rule StartGenStepDiagrams {
+	salience: 10;
+	when {
+		p: Problem p.timeToGenSteps && !p.generatingSteps;
+		e1: TreeExp e1.side === "left";
+		e2: TreeExp e2.side === "right";
+	} then {
+		clearInputHistory();
+		clearValidSteps();
+		
+		let eStr = getFullStr(e1, e2);
+		
+		let initialEqProperties = {
+			left: {
+				multipliedBy: e1.multipliedBy,
+				dividedBy: e1.dividedBy,
+				varOrConstSide: e1.varOrConstSide
+			},
+			right: {
+				multipliedBy: e2.multipliedBy,
+				dividedBy: e2.dividedBy,
+				varOrConstSide: e2.varOrConstSide
+			}
+		};
+		
+		modify(p, "generatingSteps", true);
+		assert(new cycleInfo("full", 'genDiagrams', true, p.nTransLastCycle, eStr, e1.tree.clone(), e2.tree.clone(), null, null, initialEqProperties, "abstract", true));
+		assert(new rowInfo(16-p.rows.length));
+	}
+}
+
+rule EndGenStepDiagrams {
+	when {
+		p: Problem p.timeToGenSteps && !p.generatingSteps;
+	} then {
+		modify(p, "timeToGenSteps", false);
+		//send valid steps to interface somehow
+		var validStepsArg = stringifyValidSteps();
+		console.log("got next steps arg: "+validStepsArg);
+		if (validStepsArg) {
+			console.log('1');
+			modify(p, "validStepHintsAndSkills", getValidStepHintsAndSkills());
+			if (!p.chooseDiagrams) {
+				console.log('2');
+				assert(new TPA("_root", "setStepDiagrams", validStepsArg));
+				console.log('3');
+				assert(new TPA("_root", "showDiagrams", ''));
+			} else {
+				console.log('4');
+				modify(p, "hiddenDiagrams", validStepsArg);
+				modify(p, "diagramsHidden", true);
+				assert(new TPA("diagramsButton", "setEnabled", true));
+			}
+		} else {
+				console.log('5');
+			assert(new TPA("_root", "showStepInputs", "arg"));
+		}
+				console.log('6');
+		halt();
+	}
+}
+
+rule ShowDiagrams {
+	when {
+		p: Problem p.diagramsHidden;
+		not( ci: cycleInfo );
+	} then {
+		console.log("showDiagrams button pressed");
+		if (checkSAI({selection: "diagramsButton", action: "ButtonPressed", input: "-1"})) {
+			if (p.hiddenDiagrams) {
+				assert(new TPA("_root", "setStepDiagrams", p.hiddenDiagrams));
+			}
+			assert(new TPA("_root", "showDiagrams", ''));
+			let rowN = 16-p.rows.length;
+			console.log("rowN is ",rowN);
+			// assert(new TPA("solve"+rowN, "setEnabled", false)); should work but doesn't
+			CTATShellTools.findComponent("solve"+rowN)[0].setEnabled(false);
+			modify(p, "hiddenDiagrams", null);
+			modify(p, "diagramsHidden", false);
+			halt();
+		} else {
+			backtrack();
+		}
+	}
+}
+
+rule PickDiagram {
+	when {
+		prob: Problem {rows: problemRows};
+		sv: StudentValues sv.selection.includes("groupExplain") && sv.input {selection: s, action: a, input: i};
+		not(ci: cycleInfo);
+	} then {
+		console.log("pick diagram, sv is "+JSON.stringify(sv));
+		retract(sv);
+		var diagramRowNum = 15 - problemRows.length;
+		var tutorInput = "radioExplain"+diagramRowNum+"Diagram1";
+		var operation,operand,isFirstRow;
+		var diagramVal = i.split(":")[0],
+			op = diagramVal.split(',');
+		var skills;
+		var step = null;
+		var bugMsg = null;
+		var successMsg = null;
+		console.log("pick diagram op[0] is "+op[0]);
+		
+		switch(op[0]) {
+			case 'subtraction':
+				successMsg = "Good job!  You subtracted "+op[1]+" from both sides of the equation to isolate the variable.";
+				operation = op[0];
+				operand = op[1];
+				break;
+			case 'division':
+				successMsg = "Good job!  You divided both sides of the equation by "+op[1];
+				operation = op[0];
+				operand = op[1];
+				break;
+			case 'addition':
+			case 'multiplication':
+				operation = op[0];
+				operand = op[1];
+				break;
+			case 'shortenedLeft': //left side has been shortened
+			case 'shortenedRight': //right side has been shortened
+				bugMsg = "Do the top and bottom sides have tapes that have the SAME length?";
+				break;
+			case 'switched': //free terms on both sides have been switched
+				bugMsg = "This one looks right, but do the tapes have appropriate sizes? Look at the numbers in the tapes carefully.";
+				break;
+			case 'subtractionLeft': //the correct (constant or variable) term has been subtracted only from the left side
+			case 'subtractionRight':// the correct (constant or variable) term has been subtracted only from the right side
+				bugMsg = "Do you see "+op[1]+" being subtracted from BOTH top and bottom sides of the diagram?";
+				break;
+			case 'subtractionLeftRight': //the similar (both constant or both variable) terms from both sides have beed subtracted
+				bugMsg = "Look at the numbers carefully. Do you see the SAME number being subtracted from both sides of the diagram?";
+				break;
+			case 'addCoefficientsLeft': //the constant term has been added to the variable coefficient on the left side
+			case 'addCoefficientsRight':// the constant term has been added to the variable coefficient on the right side
+			case 'multiplyCoefficientsLeft': //the constant term has been multiplied with the varible coefficient on the left side
+			case 'multiplyCoefficientsRight':// the constant term has been multiplied with the varible coefficient on the right side
+				bugMsg = "Oops! You are combining \"unlike terms.\" Remember, you need to do the same thing to both sides of the equation.";
+				break;
+			case 'subtractionAdditionLeft': //one term has been subtracted from the left side and added to the right side
+				bugMsg = "That one correctly subtracts "+op[1]+" from the top, but adds "+op[1]+" to the bottom instead. "+op[1]+" needs to be subtracted from both sides.";
+				break;
+			case 'subtractionAdditionRight':// one term has been subtracted from the right side and added to the left side
+				bugMsg = "That one correctly subtracts "+op[1]+" from the bottom, but adds "+op[1]+" to the top instead. "+op[1]+" needs to be subtracted from both sides.";
+				break;
+			case 'subtractionTwiceLeft': //some other term similar to the common terms has been subtracted twice from the left side
+			case 'subtractionTwiceRight':// some other term similar to the common terms has been subtracted twice from the right side
+				bugMsg = "You need to subtract something other than "+op[1]+", and you should subtract only once from BOTH sides of the diagram";
+				break;
+			case 'subtractionBoth': //some other (constant or variable) term has been subtracted from both sides
+				bugMsg = "Is "+op[1]+" really the number we should subtract from both sides? Does that help you solve the problem?";
+				break;
+			case 'additionBoth': //the constant or the variable term from one side has been added to both sides
+				bugMsg = "That does the same thing to both sides of an equation, but adding "+op[1]+" does not help you solve the problem.";
+				break;
+			case 'subtractionOtherBoth': //the non-commom term has been subtracted from both sides
+				bugMsg = "That does the same thing to both sides of an equation, but is "+op[1]+" the number we should subtract?";
+				break;
+			case 'divisionLeft': //left side has been divided by smallest variable coefficient
+			case 'divisionRight': //right side has been divided by smallest variable coefficient
+				bugMsg = "Do you see that BOTH sides of the diagram have been divided by "+op[1]+"?";
+				break;
+			case 'divisionMultiplicationLeft': //left side has been divided by and right side has been multiplied by the correct variable coefficient
+				bugMsg = "The top side has been divided correctly, but look at the bottom side. It has been multiplied instead!";
+				break;
+			case 'divisionMultiplicationRight': //right side has been divided by and left side has been multiplied by the correct variable coefficient
+				bugMsg = "The bottom side has been divided correctly, but look at the top side. It has been multiplied instead!";
+				break;
+			case 'multiplicationBoth':
+				bugMsg = "That one may look right, but mulitplying both sides does not help you solve the problem.";
+				break;
+			case 'divisionSubtractionBoth':
+				bugMsg = "Is it appropriate to SUBTRACT from both sides? How would DIVISION look like in the diagrams?";
+				break;
+		}
+		
+		//get/assert step skills
+		//get associated skills
+		if (prob.chooseDiagrams && !prob.diagramsHidden && prob.diagramToChoose) {
+			let [dtcOperation, dtcOperand] = prob.diagramToChoose.split(',');
+			step = _validSteps.find((s)=> s.operation === dtcOperation && s.operand == dtcOperand);
+			skills = step.skills.diagram;
+		} else if (prob.diagramsFirst) {
+			if (_validSteps.length) {
+				console.log("1");
+				step = _validSteps.find((s)=> s.operation === operation && s.operand == operand);
+				skills = step ? step.skills.diagram : _validSteps[0].skills.diagram;
+			} else {
+				console.log("2");
+				skills = ['selectd-given-eq'];
+			}
+		} else {
+			console.log("3");
+			if (prob.currentDiagram) {
+				skills = [getDiagramSkillForTrans(prob.currentDiagram.operation, prob.currentDiagram.operand)];
+			} else {
+				skills = ['selectd-given-eq'];
+			}
+		}
+		
+		if (!prob.diagramsHidden) { //don't update skills on simulated diagram steps
+			skills.forEach((skill)=> assert(new Skill(skill, 'diagram')));
+		}
+		
+		if (checkSAI({selection: s, action: a, input: tutorInput}, () => {
+			
+			console.log("check diagram sai, operation is "+operation);
+			if (prob.diagramToChoose && prob.diagramToChoose !== diagramVal) {
+				return false;
+			}
+			if (op[0]==="given") {
+				isFirstRow = true;
+				return true;
+			} else if (operation || bugMsg) {
+				return true;
+			}
+			return false;
+		}, !!bugMsg)) {
+			if (bugMsg) {
+				assert(new BugMessage(bugMsg));
+				backtrack();
+			} else {
+				if (successMsg) {
+					assert(new SuccessMessage(successMsg));
+				}
+				modify(prob, "currentDiagram", null);
+				modify(prob, 'diagramToChoose', null);
+				if (!prob.diagramsFirst) {
+					assert(new TPA("_root", "hideIncorrectDiagrams", 'arg'));
+					assert(new TPA("_root", "showNextRow", 'arg'));
+					assert(new TPA("_root", "showStepInputs", 'arg'));
+					halt();
+				}
+				else {
+					if (!prob.diagramsHidden || isFirstRow) {
+						modify(prob, 'validStepHintsAndSkills', []);
+						if (isFirstRow) {
+							assert(new TPA("_root", "showNextRow", 'arg'));
+							modify(prob, "timeToGenSteps", true);
+						} else {
+							modify(prob, "nextStep", {operation: operation, operand: operand, expAfter: step.expAfter, skills: step.skills.typein});
+							assert(new TPA("_root", "showStepInputs", 'arg'));
+							if (prob.chooseDiagrams) {
+								// assert(new TPA("solve"+(16-prob.rows.length), "setEnabled", true));
+								CTATShellTools.findComponent("solve"+(16-prob.rows.length))[0].setEnabled(true);
+							}
+							halt();
+						}
+					} else { //this was a simulated action
+						halt();
+					}
+				}
+			}
+		} else {
+			backtrack();
+		}
+	}
+}
+
+rule HintDiagramsFirst {
+	salience: 20;
+	when {
+		h: IsHintMatch;
+		p: Problem !p.chooseDiagrams && p.validStepHintsAndSkills.length;
+	} then {
+		
+		setChainPriority(2);
+
+		p.validStepHintsAndSkills.forEach((hAndS)=>{
+			hAndS.hints.forEach((h)=>assert(new Hint(h)));
+			hAndS.skills.diagram.forEach((s)=>assert(new Skill(s, "diagram")));
+		});
+		
+		var diagramRowNum = 15 - p.rows.length;
+		var tutorInput = "radioExplain"+diagramRowNum+"Diagram1";
+		checkSAI({selection: "groupExplain"+diagramRowNum+"Diagrams", action: "UpdateRadioButton", input: tutorInput});
+		
+		backtrack();
+	}
+}
+
+rule HintDiagramsChoice {
+	salience: 20;
+	when {
+		h: IsHintMatch;
+		p: Problem p.chooseDiagrams && !p.diagramsHidden;
+	} then {
+		
+		setChainPriority(2);
+		
+		if (p.diagramToChoose) {
+			let [operation, operand] = p.diagramToChoose.split(',');
+			let step = _validSteps.find((vs)=>vs.operation === operation && vs.operand == operand);
+			if (step) {
+				assert(new Skill(step.skills.diagram, 'diagram'));
+			}
+			assert(new Hint("Select the diagram which represents the step you typed in"));
+		} else {
+			p.validStepHintsAndSkills.forEach((hAndS)=>{
+				hAndS.hints.forEach((h)=>assert(new Hint(h)));
+				hAndS.skills.diagram.forEach((s)=>assert(new Skill(s, "diagram")));
+			});
+		}
+		
+		var diagramRowNum = 15 - p.rows.length;
+		var tutorInput = "radioExplain"+diagramRowNum+"Diagram1";
+		checkSAI({selection: "groupExplain"+diagramRowNum+"Diagrams", action: "UpdateRadioButton", input: tutorInput});
+		
+		backtrack();
+	}
+}
+
+rule HintDiagramsLast {
+	salience: 20;
+	when {
+		h: IsHintMatch;
+		p: Problem p.currentDiagram {currentDiagram: cd};
+	} then {
+		var operation = cd.operation,
+			operand = cd.operand,
+			expBefore = cd.expBefore,
+			expAfter = cd.expAfter;
+			
+		switch(operation) {
+			case 'initial':
+				assert(new Hint("Remember that you need to keep the length of the tapes equal because they are “balanced”."));
+				assert(new Hint("The tape at the top shows the left-hand side of the equation, and one at the bottom shows the right-hand side of the equation."));
+				assert(new Skill("selectd-given-eq", "diagram"));
+			break;
+			case 'subtraction': 
+				assert(new Hint("Remember that you need to keep the length of the tapes equal because they are “balanced”."));;
+				assert(new Hint("Remember that you need to subtract (take out) the same thing from both sides."));
+				assert(new Skill("selectd-subtract-"+(operand.includes('x') ? 'var' : 'const'), "diagram"));
+			break;
+			case 'division-simple':
+				assert(new Hint("Remember that you need to keep the length of the tapes equal because they are “balanced”."));
+				assert(new Hint("Remember that you need to divide by the same number from both sides."));
+				assert(new Hint("Make sure to differentiate between subtraction and division and how they are represented."));
+				assert(new Skill("selectd-divide-simple", "diagram"));
+			break;
+			case 'division-complex':
+				assert(new Hint("Remember that you need to keep the length of the tapes equal because they are “balanced”."));
+				assert(new Hint("If you divide a tape by "+operand+", the length of the tape would be 1/"+operand));
+				assert(new Hint("Make sure to differentiate between subtraction and division and how they are represented."));
+				assert(new Skill("selectd-divide-complex", "diagram"));
+			break;
+		}
+		
+		var diagramRowNum = 15 - p.rows.length;
+		var tutorInput = "radioExplain"+diagramRowNum+"Diagram1";
+		checkSAI({selection: "groupExplain"+diagramRowNum+"Diagrams", action: "UpdateRadioButton", input: tutorInput});
+		
+		backtrack();
+	}
+}
+
+rule HintDiagramStep {
+	salience: 20;
+	when {
+		h: IsHintMatch;
+		p: Problem p.nextStep;
+		not( ri: rowInfo ) ;
+	} then {
+		var ns = p.nextStep,
+			t = ns.operation,
+			o = ns.operand;
+		//assert hints
+		assert(new Hint("Now type in the step shown in the diagram you picked"));
+		switch(t) {
+			case "addition":
+				assert(new Hint("The diagram you picked shows adding "+o+" to each side.  Type that step in."));
+				break;
+			case "subtraction":
+				assert(new Hint("The diagram you picked shows subtracting "+o+" from each side.  Type that step in."));
+				break;
+			case "multiplication":
+				assert(new Hint("The diagram you picked shows multiplying each side by "+o+".  Type that step in."));
+				break;
+			case "division":
+				assert(new Hint("The diagram you picked shows dividing both sides by "+o+".  Type that step in."));
+				break;
+		}
+		assert(new Hint("Enter "+ns.expAfter));
+		//assert skills
+		ns.skills.forEach((s)=> assert( new Skill(s, 'transformation') ));
+		//predict step
+		checkSAI({selection: `solve${16-p.rows.length}`, action: "UpdateTextField", input: ns.expAfter}); 
+		
+		setChainPriority(1);
+		
+		backtrack();
+	}
+}
